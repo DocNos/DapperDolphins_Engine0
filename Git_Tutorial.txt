@@ -1,0 +1,42 @@
++------+
+| Vocab|
++------+
+Clone 					 -> create a copy on your machine (locally)
+Repository (Git Version) -> Each user has their own version(branch). The main trunk
+							must be updated via push and pull. Users commit to their
+							local repository then request a push. 
+							
+Push					 -> Commit to remote repository. Usually needs to be approved
+
+Pull					 -> Fetch commits from remote repo and stores in local branch
+							Other users can do this at any time, stay up to date by
+							pulling often (pull often for your health)
+							
+.gitignore(Git Ignore)   -> file type to be placed in root directory. specifies which
+							local files to ignore during push/pull
+							there are templates for this on github.
+							https://git-scm.com/docs/gitignore
+						* -> "wildcard match"
+						/ -> ignore pathnames relative to file
+						# -> comment
+						
+
++------+
+| CMD  |
++------+
+// Note on git bash, make sure you are using the contextual "Git bash here"
+// in the same folder as the .git folder (may be hidden)	
+// creates .gitignore_global					
+$ git config --global core.excludesfile ~/.gitignore_global 
+
+// add to staging area(index), track files 
+$ git add File_Name
+$ git add *.txt			// All .txt in curr directory
+$ git add docs/*.txt	//	" 	"	in specified directory	
+$ git add docs/			// all files in specified directory
+
+// once added to staging area, do commit.
+$ git commit -m "Commit Message"
+
+// Push to main trunk
+$ git push -u origin master (? possibly main trunk name)
