@@ -23,6 +23,10 @@ Push					 -> Commit to remote repository. Usually needs to be approved
 Pull					 -> Fetch commits from remote repo and stores in local branch
 							Other users can do this at any time, stay up to date by
 							pulling often (pull often for your health)
+
+Owner					 -> Users that are responsible for the code. Via 
+							CODEOWNERS file
+
 							
 .gitignore(Git Ignore)   -> file type to be placed in root directory. specifies which
 							local files to ignore during push/pull
@@ -31,6 +35,7 @@ Pull					 -> Fetch commits from remote repo and stores in local branch
 						* -> "wildcard match"
 						/ -> ignore pathnames relative to file
 						# -> comment
+
 						
 
 +------+
