@@ -1,10 +1,22 @@
 +------+
 | Vocab|
 +------+
-Clone 					 -> create a copy on your machine (locally)
+
 Repository (Git Version) -> Each user has their own version(branch). The main trunk
 							must be updated via push and pull. Users commit to their
-							local repository then request a push. 
+							local repository then request a push. (Decentralized, 
+							as opposed to SVN, which commits are made directly to 
+							a version that everyone commits to)
+	Bare Repository  	 -> Branch without a working directory. Basically const.
+							Any branches from this repo will not be const.
+							
+	Mirror Repository	 -> Inherits bare features, and also "clones all extended
+							refs and maintains remote branch tracking configuration". 
+							Not sure what that means. 
+		
+Clone 					 -> Get(git) a copy of a repo on your machine (locally)							
+							creates a branch on your machine. First step to using 
+							the repo. Creates a remote connection (origin ptr)	
 							
 Push					 -> Commit to remote repository. Usually needs to be approved
 
@@ -25,9 +37,12 @@ Pull					 -> Fetch commits from remote repo and stores in local branch
 | CMD  |
 +------+
 // Note on git bash, make sure you are using the contextual "Git bash here"
-// in the same folder as the .git folder (may be hidden)	
-// creates .gitignore_global					
-$ git config --global core.excludesfile ~/.gitignore_global 
+// in the same folder as the .git folder (may be hidden). Once the cmd prompt is 
+// up, the branch you are currently in will be in parenthesis	
+
+// Check the status of staging area, check if local branch is up to date
+$ git status
+
 
 // add to staging area(index), track files 
 $ git add File_Name
@@ -39,4 +54,50 @@ $ git add docs/			// all files in specified directory
 $ git commit -m "Commit Message"
 
 // Push to main trunk
-$ git push -u origin master (? possibly main trunk name)
+$ git push -u origin master 
+$ git push -u <remote repo ptr> <name of your branch> 
+
+// creates .gitignore_global					
+$ git config --global core.excludesfile ~/.gitignore_global 
+
+// Clone
+$ git clone <repoURL> <localDirectory> 
+$ git clone -branch <branchName> <repoURL> 
+$ git clone --bare <repoURL> 
+$ git clone --mirror <repoURL>
+
+
++-------------+
+| URL Format  |
++-------------+
+// Replace these with any <repoURL>
+// Pretty sure port is optional
+
+Secure Shell (SSH) 						-> Authenticated. Need login credentials.
+					  
+> ssh://[user@]host.xz[:port]/path/to/repo.git/
+> ssh://john@example.com/path/to/my-project.git 
+
+GIT 			   						-> No Authentication. Runs on port 9418
+> git://host.xz[:port]/path/to/repo.git/
+> git://remoterepository.git
+
+Hyper Text Transfer Protocol (HTTP) 	-> Its how the internet communicates 
+> http[s]://host.xz[:port]/path/to/repo.git/
+> 
+
+
++---------+
+| Sources |
++---------+
+https://www.geeksforgeeks.org/what-is-a-git-repository/
+https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
+
+
+
+
+
+
+
+
