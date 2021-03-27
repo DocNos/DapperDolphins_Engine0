@@ -25,7 +25,8 @@ Pull					 -> Fetch commits from remote repo and stores in local branch
 							pulling often (pull often for your health)
 
 Owner					 -> Users that are responsible for the code. Via 
-							CODEOWNERS file
+							CODEOWNERS file. Have final say
+Collaborators			 -> Can submit pull and push requests
 
 							
 .gitignore(Git Ignore)   -> file type to be placed in root directory. specifies which
