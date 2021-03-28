@@ -16,5 +16,8 @@ Animation
 Sprite / Graphics / SpriteSource
 Particles
 Combat
+Debug drawing
+virtual clone
 
-Entity Component System? beee
+
+Entity Component System? 
