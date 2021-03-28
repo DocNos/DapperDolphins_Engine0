@@ -72,6 +72,26 @@ $ git clone -branch <branchName> <repoURL>
 $ git clone --bare <repoURL> 
 $ git clone --mirror <repoURL>
 
+// Branching
+$ git branch <branch_name> 				// create new branch
+$ git checkout <branch>
+
+// More secure- SSH
+$ ls -al ~/.ssh                                 // Check existing keys
+$ ssh-keygen -t <key_algorithm> -C <git email>  // Login. Will prompt for pw and 
+				"ed25519"						// generated key location.
+				"rsa -b 4096"					// generates a public/private pair
+$ eval "$(ssh-agent -s)"                        // Start the ssh agent (starts new process everytime, check your task manager when done)
+$ ssh-add /path/to/file 						// adds identity for agent
+$ ssh-add -l -E <hash_algorithm>                // Add the key with the specified 
+				"sha256"						// Hash algorithm (see pic)
+
+// Once this is done, add the public key to your gitHub account (<key_name>.pub)
+// Click on profile top right -> settings -> SSH and GPG keys
+
+$ ssh -vT git@github.com 						// Verify and authenticate your key
+
+// Once authenticated, should be able to clone from ssh links.
 
 +-------------+
 | URL Format  |
@@ -98,6 +118,7 @@ Hyper Text Transfer Protocol (HTTP) 	-> Its how the internet communicates
 +---------+
 https://www.geeksforgeeks.org/what-is-a-git-repository/
 https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+https://mytrashcode.com/open-connection-authentication-agent  //ssh 
 
 
 
