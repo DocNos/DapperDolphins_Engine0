@@ -8,7 +8,10 @@ Bars (Health, cooldown, etc)
 Controls
 Math (Vector, Matrix, Lerp)
 Rendering (Texture loading, meshes)
-
+Messaging (Flags and events)
+	-Make pure virtual 
+	virtual Message* Clone() = 0;
+	must be derived
 
 Physics
 Transform
@@ -18,6 +21,7 @@ Particles
 Combat
 Debug drawing
 virtual clone
+meta template programming
 
 
 Entity Component System? 
