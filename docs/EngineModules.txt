@@ -12,6 +12,7 @@ Messaging (Flags and events)
 	-Make pure virtual 
 	virtual Message* Clone() = 0;
 	must be derived
+	-Asserts
 
 Physics
 Transform
@@ -25,3 +26,9 @@ meta template programming
 
 
 Entity Component System? 
+
+Collider same dimensions as sprite (Pixel perfect hitboxes)
+
+Read animation details from json. Possible to read directly from png?
+
+Run only one fsm for component. 
