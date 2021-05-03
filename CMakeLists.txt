@@ -13,14 +13,11 @@ add_test(NAME Runs COMMAND Tutorial)
 
 # does the usage message work?
 add_test(NAME Usage COMMAND Tutorial)
-set_tests_properties(Usage
-  PROPERTIES PASS_REGULAR_EXPRESSION "Usage:.*number"
-  )
 
 # define a function to simplify adding tests
 function(do_test target arg result)
-  add_test(NAME Comp${arg} COMMAND ${target} ${arg})
-  set_tests_properties(Comp${arg}
+  add_test(NAME Comp${arg} COMMAND ${target})
+  set_tests_properties(Comp
     PROPERTIES PASS_REGULAR_EXPRESSION ${result}
     )
 endfunction(do_test)
