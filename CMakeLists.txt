@@ -14,13 +14,5 @@ add_test(NAME Runs COMMAND Tutorial)
 # does the usage message work?
 add_test(NAME Usage COMMAND Tutorial)
 
-# define a function to simplify adding tests
-function(do_test target arg result)
-  add_test(NAME Comp${arg} COMMAND ${target})
-  set_tests_properties(Comp
-    PROPERTIES PASS_REGULAR_EXPRESSION ${result}
-    )
-endfunction(do_test)
-
 # do a bunch of result based tests
 do_test(Tutorial "main function, yes")
