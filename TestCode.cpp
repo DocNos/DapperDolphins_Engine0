@@ -11,5 +11,5 @@ struct Foo {
 Foo f; // static object
 int main()
 {
-    std::cout << "main function, yes\n";asdf
+    std::cout << "main function, yes\n";
 }
