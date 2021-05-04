@@ -1,23 +1,31 @@
-GameState Manager
-Object Manager
+$ -> class, & -> library
+
+$ GameState Manager
+$ Object Manager
+	-> & Vector
 Level Manager / Scene Manager
 Random 
-Stream (I/O)
+$ Stream (I/O)
 Timer
-Bars (Health, cooldown, etc)
-Controls
-Math (Vector, Matrix, Lerp)
-Rendering (Texture loading, meshes)
-Messaging (Flags and events)
+$ UI 
+  -> Bars (Health, cooldown, etc)
+$ Controls
+& Math (Vector, Matrix, Lerp)
+$ Rendering (Texture loading, meshes)
+   -> &openGL
+
+$ Messaging (Flags and events)
 	-Make pure virtual 
 	virtual Message* Clone() = 0;
 	must be derived
 	-Asserts
+	-Read animation details from json. Possible to read directly from png?
 
-Physics
-Transform
-Animation
-Sprite / Graphics / SpriteSource
+$ Physics
+$ Particles 
+$ Transform
+$ Animation
+$ Sprite / Graphics / SpriteSource
 Particles
 Combat
 Debug drawing
@@ -28,7 +36,5 @@ meta template programming
 Entity Component System? 
 
 Collider same dimensions as sprite (Pixel perfect hitboxes)
-
-Read animation details from json. Possible to read directly from png?
 
 Run only one fsm for component. 
