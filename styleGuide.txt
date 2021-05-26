@@ -1,0 +1,51 @@
+Examples
+
+
+/*	This does a thing!				   // explicit function headers not required, but all functions should be commented,
+ *									   // IE one line descriptions 
+ *	int param0
+ *		this is the first parameter    // If you do use an explicit function header, annotate all pieces ( parameters, return, name and description)
+ *  float param1					   // Follow DigiPen CS class standards
+ *      this is the second parameter
+ */
+void doThing(int param0, float param1) //  camelCase function names, variable names. 
+{									   //  start counting from 0, unless EXPLICITLY commented and stated in function header
+									   //  bracket next line!! No same-line brackets.
+
+	int i = param1;
+	while(i < param0)				   // bracket next line.
+	{
+		++i;						   // Favor pre-increment in favor of post-increment. This is more efficent. 
+	}
+	
+	
+	
+}
+// This class is cool and does cool things  	// One line description.
+class coolClass						   			// camelCase.
+{
+	public:							   			// Make public/private explicit.
+												// Tab in after each scope
+		coolClass()					   			// Always include big 4		
+		{
+		
+		}
+		coolClass(coolClass & other)
+		{
+		
+		}
+		coolClass& operator=(coolClass & other)
+		{
+			
+		}
+		~coolClass(){};
+		
+
+	
+	private:
+	
+		memVar0_;						   // Member variables should have underscore.
+		memVar1_;
+
+
+}
