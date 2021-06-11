@@ -49,6 +49,8 @@ Collaborators			 -> Can submit pull and push requests
 // Check the status of staging area, check if local branch is up to date
 $ git status
 
+$ git config --global <email>  // Log in for the whole PC
+$ git config --local <email>   // Log in for current repo
 
 // add to staging area(index), track files 
 $ git add File_Name
