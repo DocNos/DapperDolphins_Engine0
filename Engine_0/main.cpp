@@ -3,7 +3,9 @@
 
 int main()
 {
-
+	float dt;
+	
+	ManagerUpdate(dt);
 
 	
 	return 0;

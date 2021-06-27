@@ -1,19 +1,21 @@
 #pragma once
 
 
+
 typedef class Obj* ObjPtr;
 enum ObjState
 {
-	destroyed = -1,
-	invalid,
-	checkStatus,
-	update,
-	render
+	objDestroyed = -1,
+	objInvalid,
+	objCheckStatus,
+	objUpdate,
+	objRender
 };
 
-typedef class EngineObject
+typedef class BaseObject
 {
 	public:
+		// Remember! The FSM does no rendering, only flags for render!
 		virtual void FSM() = 0;
 		//virtual void checkStatus() = 0; // pure virtual
 		virtual void Render() = 0;
@@ -22,11 +24,15 @@ typedef class EngineObject
 
 	private:
 		ObjState state_;
+		
 	
-	
-} *EngObjPtr;
+} *BaseObjPtr;
 
-typedef class PlayerObject : public EngineObject
+
+
+
+
+typedef class PlayerObject : public BaseObject
 {
 public:
 	
@@ -47,28 +53,28 @@ public:
 	{
 		switch (getState())
 		{
-		case(destroyed):
+		case(objDestroyed):
 		{
 			// Flag for destruction
 		}break;
 
-		case(invalid):
+		case(objInvalid):
 		{
 			// Intialize Object
 		}break;
 
-		case(checkStatus):
+		case(objCheckStatus):
 		{
 			// see if object needs to change
 		}break;
 
 
-		case(update):
+		case(objUpdate):
 		{
 
 		}break;
 
-		case(render):
+		case(objRender):
 		{
 
 		}break;

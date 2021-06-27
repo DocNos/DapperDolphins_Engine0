@@ -2,15 +2,21 @@
 
 
 
+
 template <typename T>
 class Manager
 {
 public:
 	typedef void (*functionPtr) (T param);
-
+	Manager()
+	{
+		list_ = new std::vector<T>;
+	}
+	
+	
 	void executeT(functionPtr update)
 	{
-		for (T t : list_)
+		for (T t : list_) // Updating every T t in the private  member var list_
 		{
 			update(t);
 		}
@@ -21,3 +27,5 @@ private:
 	std::vector<T> list_;
 	int renderReady_ = 0;
 };
+
+void ManagerUpdate(float dt);
