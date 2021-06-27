@@ -1,0 +1,24 @@
+Object // create based off ObjGroup enum
+	ObjPtr player(ObjGroup player, std::string "playerName"); 
+	
+
+	-> Cmp // this needs to be template to accomodate all diff types
+		// Change the type within constructor
+		IE
+			ObjGroup group0 = player;
+			Cmp<physics> phys(group0);
+			
+			ObjGroup group1 = interface;
+			Cmp<display> newCmp1(group1);
+		-> Physics
+		
+		-> Display // Render separately 
+			Manager<
+		
+		-> Transform
+		
+		-> Input/ Manipulation 
+	create()
+	draw()
+	get()	
+	
