@@ -61,11 +61,11 @@ $ git add docs/			// all files in specified directory
 // once added to staging area, do commit.
 $ git commit -m "Commit Message"
 
-// Pull from main
+// Pull from main, merges with specified branch
 $ git pull origin <mainBranchName>
 
 
-// Push to main trunk
+// Push to main trunk, creates new branch
 $ git push -u origin master 
 $ git push -u <remote repo ptr> <name of your branch> 
 
