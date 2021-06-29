@@ -89,15 +89,25 @@ $ git push -u <remote repo ptr> <name of your branch>
 // creates .gitignore_global					
 $ git config --global core.excludesfile ~/.gitignore_global 
 
+
+
+
+
 // Clone
 $ git clone <repoURL> <localDirectory> 
 $ git clone -branch <branchName> <repoURL> 
 $ git clone --bare <repoURL> 
 $ git clone --mirror <repoURL>
 
+
+
 // Branching
 $ git branch <branch_name> 				// create new branch
 $ git checkout <branch>
+// local delete
+$ git branch -d <branch name>
+// root delete
+$ git push origin --delete "branch name"
 
 // More secure- SSH
 $ ls -al ~/.ssh                                 // Check existing keys
