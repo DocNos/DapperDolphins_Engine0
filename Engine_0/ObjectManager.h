@@ -7,7 +7,7 @@ template <typename T>
 class Manager
 {
 public:
-	typedef void (*functionPtr) (T param);
+	typedef void (*functionPtr) (T param); // void function ptr
 	Manager()
 	{
 		list_ = new std::vector<T>;
@@ -21,6 +21,11 @@ public:
 			update(t);
 		}
 	}
+	T getObj(int index)
+	{
+		return list_[index];
+	}
+	
 	int sizeT() { return list_.size(); }
 
 private:

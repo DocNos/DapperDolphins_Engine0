@@ -8,7 +8,7 @@ void ManagerUpdate(float dt)
 {
 	static int renderReady = 0;
 	float frameRateSec = 45.f, timer = 0.f;
-	Manager<BaseObjPtr> objList;
+	Manager<BasePtr> objList;
 	timer += dt;
 	// Wait until all objects are in render state, then render all at once.
 	
@@ -19,7 +19,7 @@ void ManagerUpdate(float dt)
 		{
 			renderReady = 0;
 			objList.executeT
-			([](BaseObjPtr obj)
+			([](BasePtr obj)
 			{				
 				if (obj->getState() != objRender)
 				{
@@ -37,7 +37,7 @@ void ManagerUpdate(float dt)
 			
 		}
 		objList.executeT
-		([](BaseObjPtr obj)	// Render Loop						
+		([](BasePtr obj)	// Render Loop						
 		{
 			obj->Render();
 			
