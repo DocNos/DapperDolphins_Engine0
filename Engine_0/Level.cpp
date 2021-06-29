@@ -1,6 +1,10 @@
 #include "Level.h"
 
 
+
+
+
+
 // Remember! The FSM does no rendering, only flags for render!
 void LevelObject::FSM()
 {
@@ -44,6 +48,12 @@ void LevelObject::Execute()
 	// Process input for those actors
 	// Process interactions between actors and environment
 	// once all of these are resolved, flag for render. 
+	
+}
+
+void LevelObject::Render()
+{
+
 	
 }
 
