@@ -14,6 +14,7 @@
 #include "ObjectManager.h"
 #include "Cmp.h"
 #include  "Level.h"
+#include "Actor.h"
 
 
 #endif

@@ -3,70 +3,72 @@
 
 #include "main.h"
 
-
-
-
-
+////////////////////////////////////////////////////////
+////
 typedef class LevelObject : public BaseObject
 {
-public:
-	typedef class MenuLevelObject* MenuLevelPtr;
-	typedef class PlayLevelObject* PlayLevelPtr;
-	typedef class DebugLevelObject* DebugLevelPtr;
-	
-	LevelObject(std::string id) : levelId_(id)
-	{}
-	~LevelObject()
-	{
-
-	}
-	void FSM() override;
-	void Render() override; // Render all objects in level
-	void Execute() override;
-	
+	public:
+		typedef class MenuLevelObject* MenuLevelPtr;
+		typedef class PlayLevelObject* PlayLevelPtr;
+		typedef class DebugLevelObject* DebugLevelPtr;	
 
 
-private:
-	std::string levelId_;
-	MenuLevelPtr menuLevel_;
-	PlayLevelPtr playLevel_;
-	DebugLevelPtr debugLevel_;
-	// Actors and environment goes here
+	private:
+		//std::string levelId_;
+		MenuLevelPtr menuLevel_ = 0;
+		PlayLevelPtr playLevel_ = 0;
+		DebugLevelPtr debugLevel_ = 0;
 
 
 } *LevelObjectPtr;
-
+////
+////////////////////////////////////////////////////////
+////
 typedef class MenuLevelObject : public LevelObject
 {
-public:
+	public:
+		void FSM() override;
+		void Render() override;
+		void Execute() override;
 
-
-private:
-	Manager<UIPtr> UIManager;
-	
+	private:
+		//Manager<InterfacePtr> interface_;
+		
 
 } *MenuLevelPtr;
-
-
+////
+/////////////////////////////////////////////////////////
+////
 typedef class PlayLevelObject : public LevelObject
 {
-public:
+	public:
+		void FSM() override;
+		void Render() override; 
+		void Execute() override;
 
-
-private:
-
+	private:
+		Manager<PlayerPtr> player_;
+		Manager<EnemyPtr> enemies_;
+		// Manager<EnvironmentPtr> environment_;
+		// Manager<InterfacePtr> interface_;
+		// Manager<ItemPtr> items_;
 
 } *PlayLevelPtr;
-
+////
+///////////////////////////////////////////////////////////
+////
 typedef class DebugLevelObject : public LevelObject
 {
-public:
+	public:
+		void FSM() override;
+		void Render() override; 
+		void Execute() override;
 
-
-private:
+	private:
 
 
 } *DebugLevelPtr;
-
+////
+//////////////////////////////////////////////////////////
 
 #endif
