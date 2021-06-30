@@ -104,6 +104,7 @@ $ git clone --mirror <repoURL>
 // Branching
 $ git branch <branch_name> 				// create new branch
 $ git checkout <branch>
+
 // local delete
 $ git branch -d <branch name>
 // root delete

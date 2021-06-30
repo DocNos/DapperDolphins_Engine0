@@ -18,6 +18,16 @@ typedef class InterfaceObject: public BaseObject
 /////////////////////////////////////////////////////// 
 typedef class InputInterface: public InterfaceObject
 {
+	public:
+
+
+	
+		void FSM() override;
+		void Execute() override;
+		void Render() override;
+
+	private:
+
 
 
 	
@@ -25,13 +35,29 @@ typedef class InputInterface: public InterfaceObject
 
 typedef class ButtonInput: public InputInterface
 {
+	public:
+		ButtonInput();
+		
+		void FSM() override;
+		void Execute() override;
+		void Render() override;
+	
+	private:
+
 
 	
 } * ButtonPtr;
 
 typedef class CursorInput: public InputInterface
 {
-
+	public:
+		CursorInput();
+	
+		void FSM() override;
+		void Execute() override;
+		void Render() override;
+	
+	private:
 
 	
 } * CursorPtr;
@@ -52,25 +78,48 @@ typedef class OutputInterface: public InterfaceObject
 
 typedef class ScoreOutput: public OutputInterface
 {
+	public:
+	
+		void FSM() override;
+		void Execute() override;
+		void Render() override;
+	
+	private:
 
+	
 	
 } * ScorePtr;
 
 typedef class PoolOutput: public OutputInterface
 {
 
+
 	
 } * PoolPtr;
 
 typedef class HealthPool: public PoolOutput
 {
-
+	public:
+		HealthPool();
+	
+		void FSM() override;
+		void Execute() override;
+		void Render() override;
+	
+	private:
 	
 } * HealthPoolPtr;
 
 typedef class OxygenPool: public PoolOutput
 {
-
+	public:
+		OxygenPool();
+	
+		void FSM() override;
+		void Execute() override;
+		void Render() override;
+	
+	private:
 	
 } * OxygenPoolPtr;
 //\

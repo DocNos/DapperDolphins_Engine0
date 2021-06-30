@@ -6,11 +6,12 @@ typedef class Engine
 {
 public:
 	
-	Engine()
+	Engine() :
+	dt_(0.f), prevLevel_(0), nextLevel_(0)
 	{
-		
+		ButtonPtr* buttons;
+		currLevel_ = new MenuLevelObject(4, buttons);
 	}
-	~Engine(){}
 
 	void Init();
 	void Update();
