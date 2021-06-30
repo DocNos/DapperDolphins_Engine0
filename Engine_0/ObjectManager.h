@@ -21,6 +21,10 @@ public:
 			update(t);
 		}
 	}
+	void addObj(T* object)
+	{
+		list_.push_back(object);
+	}
 	T getObj(int index)
 	{
 		return list_[index];

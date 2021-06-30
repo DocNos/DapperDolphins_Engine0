@@ -5,9 +5,7 @@
 
 void Engine::Init()
 {
-	EnginePtr eng = this;
-	dt_ = 0.f;
-	// Init level. Level Manager?
+	
 	
 	
 	

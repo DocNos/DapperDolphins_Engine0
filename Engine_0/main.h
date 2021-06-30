@@ -10,11 +10,18 @@
 #include <iterator>
 #include <typeinfo>
 
+#include "Engine.h"
 #include "Object.h"
 #include "ObjectManager.h"
 #include "Cmp.h"
 #include  "Level.h"
 #include "Actor.h"
+#include "Interface.h"
+#include "Environment.h"
+
+#include "matrix.hpp"
+#include "vec2.hpp"
+
 
 
 #endif
