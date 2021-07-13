@@ -19,9 +19,8 @@
 #include "Interface.h"
 #include "Environment.h"
 
-#include "matrix.hpp"
-#include "vec2.hpp"
-
+#include <glm.hpp>
+typedef glm::mat3 mtx3;
 
 
 #endif

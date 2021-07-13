@@ -1,101 +1,175 @@
 ﻿  Actor.cpp
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C3646: 'currLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C3646: 'prevLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C3646: 'nextLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,12): error C2614: 'Engine': illegal member initialization: 'prevLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,27): error C2614: 'Engine': illegal member initialization: 'nextLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,3): error C2065: 'ButtonPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,14): error C2065: 'buttons': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,3): error C2065: 'currLevel_': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,1): error C2061: syntax error: identifier 'MenuLevelObject'
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(17): fatal error C1903: unable to recover from previous error(s); stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,11): error C2065: 'ButtonPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C3646: 'cursor_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,11): error C2065: 'PlayerPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,3): error C2923: 'Manager': 'PlayerPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,11): error C2065: 'EnemyPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,3): error C2923: 'Manager': 'EnemyPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Interface.h(37,14): error C2061: syntax error: identifier 'mtx3'
   Engine.cpp
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(17): fatal error C1903: unable to recover from previous error(s); stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,11): error C2065: 'ButtonPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C3646: 'cursor_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,11): error C2065: 'PlayerPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,3): error C2923: 'Manager': 'PlayerPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,11): error C2065: 'EnemyPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,3): error C2923: 'Manager': 'EnemyPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Interface.h(37,14): error C2061: syntax error: identifier 'mtx3'
   Environment.cpp
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C3646: 'currLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C3646: 'prevLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C3646: 'nextLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,12): error C2614: 'Engine': illegal member initialization: 'prevLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,27): error C2614: 'Engine': illegal member initialization: 'nextLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,3): error C2065: 'ButtonPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,14): error C2065: 'buttons': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,3): error C2065: 'currLevel_': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,1): error C2061: syntax error: identifier 'MenuLevelObject'
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(17): fatal error C1903: unable to recover from previous error(s); stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,11): error C2065: 'ButtonPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C3646: 'cursor_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,11): error C2065: 'PlayerPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,3): error C2923: 'Manager': 'PlayerPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,11): error C2065: 'EnemyPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,3): error C2923: 'Manager': 'EnemyPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Interface.h(37,14): error C2061: syntax error: identifier 'mtx3'
   Interface.cpp
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C3646: 'currLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C3646: 'prevLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C3646: 'nextLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,12): error C2614: 'Engine': illegal member initialization: 'prevLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,27): error C2614: 'Engine': illegal member initialization: 'nextLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,3): error C2065: 'ButtonPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,14): error C2065: 'buttons': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,3): error C2065: 'currLevel_': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,1): error C2061: syntax error: identifier 'MenuLevelObject'
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(17): fatal error C1903: unable to recover from previous error(s); stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,11): error C2065: 'ButtonPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C3646: 'cursor_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,11): error C2065: 'PlayerPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,3): error C2923: 'Manager': 'PlayerPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,11): error C2065: 'EnemyPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,3): error C2923: 'Manager': 'EnemyPtr' is not a valid template type argument for parameter 'T'
   Level.cpp
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C3646: 'currLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C3646: 'prevLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C3646: 'nextLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,12): error C2614: 'Engine': illegal member initialization: 'prevLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,27): error C2614: 'Engine': illegal member initialization: 'nextLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,3): error C2065: 'ButtonPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,14): error C2065: 'buttons': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,3): error C2065: 'currLevel_': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,1): error C2061: syntax error: identifier 'MenuLevelObject'
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(17): fatal error C1903: unable to recover from previous error(s); stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Interface.h(37,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.cpp(17,15): warning C4244: 'argument': conversion from 'float' to 'glm::mat<3,3,glm::f32,glm::packed_highp>::length_type', possible loss of data
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.cpp(21,44): error C2664: 'ButtonInput::ButtonInput(const ButtonInput &)': cannot convert argument 1 from 'mtx3 *' to 'const ButtonInput &'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.cpp(21,44): message : Reason: cannot convert from 'mtx3 *' to 'const ButtonInput'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.cpp(21,44): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Interface.h(50,1): message : see declaration of 'ButtonInput::ButtonInput'
   main.cpp
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C3646: 'currLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C3646: 'prevLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C3646: 'nextLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,12): error C2614: 'Engine': illegal member initialization: 'prevLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,27): error C2614: 'Engine': illegal member initialization: 'nextLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,3): error C2065: 'ButtonPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,14): error C2065: 'buttons': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,3): error C2065: 'currLevel_': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,1): error C2061: syntax error: identifier 'MenuLevelObject'
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(17): fatal error C1903: unable to recover from previous error(s); stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,11): error C2065: 'ButtonPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C3646: 'cursor_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,11): error C2065: 'PlayerPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,3): error C2923: 'Manager': 'PlayerPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,11): error C2065: 'EnemyPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,3): error C2923: 'Manager': 'EnemyPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Interface.h(37,14): error C2061: syntax error: identifier 'mtx3'
   Object.cpp
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C3646: 'currLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C3646: 'prevLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C3646: 'nextLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,12): error C2614: 'Engine': illegal member initialization: 'prevLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,27): error C2614: 'Engine': illegal member initialization: 'nextLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,3): error C2065: 'ButtonPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,14): error C2065: 'buttons': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,3): error C2065: 'currLevel_': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,1): error C2061: syntax error: identifier 'MenuLevelObject'
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(17): fatal error C1903: unable to recover from previous error(s); stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,11): error C2065: 'ButtonPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C3646: 'cursor_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,11): error C2065: 'PlayerPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,3): error C2923: 'Manager': 'PlayerPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,11): error C2065: 'EnemyPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,3): error C2923: 'Manager': 'EnemyPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Interface.h(37,14): error C2061: syntax error: identifier 'mtx3'
   ObjectManager.cpp
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C3646: 'currLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C3646: 'prevLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C3646: 'nextLevel_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(26,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,12): error C2614: 'Engine': illegal member initialization: 'prevLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(10,27): error C2614: 'Engine': illegal member initialization: 'nextLevel_' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,3): error C2065: 'ButtonPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(12,14): error C2065: 'buttons': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,3): error C2065: 'currLevel_': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(13,1): error C2061: syntax error: identifier 'MenuLevelObject'
-C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(17): fatal error C1903: unable to recover from previous error(s); stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,11): error C2065: 'ButtonPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(48,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C3646: 'cursor_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(49,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,11): error C2065: 'PlayerPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(65,3): error C2923: 'Manager': 'PlayerPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,11): error C2065: 'EnemyPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Level.h(66,3): error C2923: 'Manager': 'EnemyPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\Engine_0\Interface.h(37,14): error C2061: syntax error: identifier 'mtx3'
   Generating Code...

@@ -7,11 +7,8 @@ typedef class Engine
 public:
 	
 	Engine() :
-	dt_(0.f), prevLevel_(0), nextLevel_(0)
-	{
-		ButtonPtr* buttons;
-		currLevel_ = new MenuLevelObject(4, buttons);
-	}
+	dt_(0.f)
+	{}
 
 	void Init();
 	void Update();
@@ -21,9 +18,11 @@ public:
 private:
 
 	float dt_;
-	LevelObjectPtr currLevel_;
-	LevelObjectPtr prevLevel_;
-	LevelObjectPtr nextLevel_; 
+	Manager<LevelObjectPtr> Levels_;
+	Manager<MenuLevelPtr> MenuLevels_;
+	Manager<PlayLevelPtr> PlayLevels_;
+	Manager<DebugLevelPtr> DebugLevels_;
+	LevelObjectPtr currentLevel_;
 
 
 	

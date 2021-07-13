@@ -21,6 +21,10 @@ typedef class BaseObject
 		virtual void Render() = 0;
 		virtual void Execute() = 0;
 		ObjState getState() { return state_; }
+		void setState(ObjState state)
+		{
+			state_ = state;
+		}
 
 	private:
 		ObjState state_;
