@@ -16,12 +16,13 @@ public:
 	
 	void executeT(functionPtr update)
 	{
+		// Lambda
 		for (T t : list_) // Updating every T t in the private  member var list_
 		{
 			update(t);
 		}
 	}
-	void addObj(T* object)
+	void addObj(T object)
 	{
 		list_.push_back(object);
 	}

@@ -22,9 +22,7 @@ typedef class InputInterface: public InterfaceObject
 
 
 	
-		void FSM() override;
-		void Execute() override;
-		void Render() override;
+		
 
 	private:
 
@@ -36,14 +34,18 @@ typedef class InputInterface: public InterfaceObject
 typedef class ButtonInput: public InputInterface
 {
 	public:
-		ButtonInput();
-		
+		ButtonInput(mtx3 buttTransform);
+		bool active()
+		{
+			return true;
+		}
 		void FSM() override;
 		void Execute() override;
 		void Render() override;
+		// 
 	
 	private:
-
+		mtx3 buttTransform;
 
 	
 } * ButtonPtr;

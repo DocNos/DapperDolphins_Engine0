@@ -1,12 +1,29 @@
 #include "Level.h"
 
+/// THIS SHOULD ALL BE IO EVENTUALLY \\\\
 
 
-
+mtx3* buttPos;
 
 	//////////////////////////////////////////////////////////////////////////
    //////   MENU                                                        ///// 
   //////////////////////////////////////////////////////////////////////////
+
+MenuLevelObject::MenuLevelObject(int numButts)
+: LevelObject(Manager<MenuLevelPtr>()) // Initialize base object with initializer list
+{
+	buttPos[0][1.f, 0.f, 0.f,
+			   0.f, 1.f, 0.f,
+			   0.f, 0.f, 1.f];
+	
+	for (int i = 0; i < numButts; ++i)
+	{
+		buttons_.addObj((new ButtonInput(buttPos[i])));
+	}
+	cursor_ = new CursorInput;
+}
+
+
 void MenuLevelObject::FSM()
 {
 	switch(getState())

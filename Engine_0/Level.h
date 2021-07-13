@@ -14,35 +14,18 @@ typedef class LevelObject : public BaseObject
 		typedef class PlayLevelObject* PlayLevelPtr;
 		typedef class DebugLevelObject* DebugLevelPtr;
 		typedef class LevelObject* LevelObjectPtr;
-
-
-
-		LevelObject();
 		
-		template <typename child>
-		child getLevelType(LevelObjectPtr level)
+
+
+		LevelObject(Manager<MenuLevelPtr> menuLevel)
 		{
-			if (level->menuLevel_)
-			{
-				return level->menuLevel_;
-			}
-			if(level->playLevel_)
-			{
-				return level->playLevel_;
-			}
-			if(level->debugLevel_)
-			{
-				return level->debugLevel_;
-			}
-
-		}	
-	
-
+			
+		}
+		LevelObject(Manager<PlayLevelPtr> playLevel);
+		LevelObject(Manager<DebugLevelPtr> debugLevel);
+		
 	private:
 		//std::string levelId_;
-		MenuLevelPtr menuLevel_ = 0;
-		PlayLevelPtr playLevel_ = 0;
-		DebugLevelPtr debugLevel_ = 0;		
 
 	
 
@@ -56,14 +39,7 @@ typedef class LevelObject : public BaseObject
 typedef class MenuLevelObject : public LevelObject
 {
 	public:
-		MenuLevelObject(int numButts, ButtonPtr* buttons)
-		{
-			for(int i = 0; i < numButts; ++i)
-			{
-				buttons_.addObj( &(buttons[i]) );
-			}
-			cursor_ = new CursorInput;
-		}
+		MenuLevelObject(int numButts);
 		void FSM() override;
 		void Render() override;
 		void Execute() override;
@@ -86,8 +62,8 @@ typedef class PlayLevelObject : public LevelObject
 		void Execute() override;
 
 	private:
-		Manager<PlayerPtr> player_;
-		Manager<EnemyPtr> enemies_;
+		//Manager<PlayerPtr> player_;
+		//Manager<EnemyPtr> enemies_;
 		// Manager<EnvironmentPtr> environment_;
 		// Manager<InterfacePtr> interface_;
 		// Manager<ItemPtr> items_;
