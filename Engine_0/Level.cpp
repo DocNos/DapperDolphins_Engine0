@@ -12,9 +12,7 @@ mtx3* buttPos;
 MenuLevelObject::MenuLevelObject(int numButts)
 : LevelObject(Manager<MenuLevelPtr>()) // Initialize base object with initializer list
 {
-	buttPos[0][1.f, 0.f, 0.f,
-			   0.f, 1.f, 0.f,
-			   0.f, 0.f, 1.f];
+	
 	
 	for (int i = 0; i < numButts; ++i)
 	{
