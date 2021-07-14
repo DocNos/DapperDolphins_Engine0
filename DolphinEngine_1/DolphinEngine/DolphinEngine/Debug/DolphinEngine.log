@@ -1,9 +1,33 @@
-﻿  Window.cpp
-C:\Users\Adam\OneDrive\Desktop\DGame\DolphinEngine\DolphinEngine\Window.cpp(152,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\Adam\OneDrive\Desktop\DGame\DolphinEngine\DolphinEngine\Window.cpp(153,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\Adam\OneDrive\Desktop\DGame\DolphinEngine\DolphinEngine\Window.cpp(157,28): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\Adam\OneDrive\Desktop\DGame\DolphinEngine\DolphinEngine\Window.cpp(158,40): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\Adam\OneDrive\Desktop\DGame\DolphinEngine\DolphinEngine\Window.cpp(160,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\Adam\OneDrive\Desktop\DGame\DolphinEngine\DolphinEngine\Window.cpp(161,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\Adam\OneDrive\Desktop\DGame\DolphinEngine\DolphinEngine\Window.cpp(100): warning C4715: 'Window::Initialise': not all control paths return a value
-  DolphinEngine.vcxproj -> C:\Users\Adam\OneDrive\Desktop\DGame\DolphinEngine\Debug\DolphinEngine.exe
+﻿  Camera.cpp
+  DirectionalLight.cpp
+  Light.cpp
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Light.cpp(24,31): warning C4244: 'argument': conversion from 'GLfloat' to 'unsigned int', possible loss of data
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Light.cpp(24,18): warning C4244: 'argument': conversion from 'GLfloat' to 'unsigned int', possible loss of data
+  main.cpp
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\main.cpp(342,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  Material.cpp
+  Mesh.cpp
+  Model.cpp
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Model.cpp(27,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::string'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Model.cpp(143,13): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Model.cpp(132,76): warning C4390: ';': empty controlled statement found; is this the intent?
+  OmniShadowMap.cpp
+  PointLight.cpp
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\PointLight.cpp(25,70): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\PointLight.cpp(25,57): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+  Shader.cpp
+  ShadowMap.cpp
+  Skybox.cpp
+  SpotLight.cpp
+  Texture.cpp
+  Window.cpp
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Window.cpp(152,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Window.cpp(153,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Window.cpp(157,28): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Window.cpp(158,40): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Window.cpp(160,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Window.cpp(161,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating Code...
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Window.cpp(100): warning C4715: 'Window::Initialise': not all control paths return a value
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  DolphinEngine.vcxproj -> C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\Debug\DolphinEngine.exe
