@@ -83,8 +83,23 @@ $ git pull origin <mainBranchName>
 
 
 // Push your branch to the main. 
-$ git push -u origin master 
+// This creates a new remote branch
+$ git push -u origin main 
 $ git push -u <remote repo ptr> <name of your branch> 
+
+// Branching
+$ git branch <branch_name> 				// create new branch
+$ git checkout <branch>
+	// Lists all branches, including remotes.
+$ git branch -a
+	// Get local copy of remote branch, must checkout after.
+$ git fetch origin <branch_name>
+
+// local delete
+$ git branch -d <branch name>
+// root delete
+$ git push origin --delete "branch name"
+
 
 // creates .gitignore_global					
 $ git config --global core.excludesfile ~/.gitignore_global 
@@ -101,14 +116,6 @@ $ git clone --mirror <repoURL>
 
 
 
-// Branching
-$ git branch <branch_name> 				// create new branch
-$ git checkout <branch>
-
-// local delete
-$ git branch -d <branch name>
-// root delete
-$ git push origin --delete "branch name"
 
 // More secure- SSH
 $ ls -al ~/.ssh                                 // Check existing keys
