@@ -9,21 +9,8 @@
 
 #pragma once
 
-#include <stdio.h>
-#include <string>
-#include <iostream>
-#include <fstream>
+#include "main.h"
 
-#include <GL\glew.h>
-
-#include <glm/glm.hpp>
-#include <glm/gtc/type_ptr.hpp>
-
-#include "CommonValues.h"
-
-#include "DirectionalLight.h"
-#include "PointLight.h"
-#include "SpotLight.h"
 
 class Shader
 {

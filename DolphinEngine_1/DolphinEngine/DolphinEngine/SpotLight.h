@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include "PointLight.h"
+#include "main.h"
 
 class SpotLight :
     public PointLight

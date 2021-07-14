@@ -8,11 +8,12 @@
 //-----------------------------------------------------------------------------
 
 #pragma once
+#include "main.h"
 
-#include "Light.h"
 
-#include <vector>
-#include "OmniShadowMap.h"
+
+
+
 
 class PointLight : public Light
 {

@@ -143,7 +143,7 @@ void Window::handleKeys(GLFWwindow* window, int key, int code, int action, int m
 	}
 }
 
-void Window::handleMouse(GLFWwindow* window, double xPos, double yPos)
+void Window::handleMouse(GLFWwindow* window, GLfloat xPos, GLfloat yPos)
 {
 	Window* theWindow = static_cast<Window*>(glfwGetWindowUserPointer(window));
 
