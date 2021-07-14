@@ -18,9 +18,10 @@
 #include "Actor.h"
 #include "Interface.h"
 #include "Environment.h"
+#include "Transform.h"
 
 #include <glm.hpp>
 typedef glm::mat3 mtx3;
-
+typedef glm::vec3 vec3;
 
 #endif
