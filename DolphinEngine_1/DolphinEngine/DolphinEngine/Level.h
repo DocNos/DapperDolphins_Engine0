@@ -35,10 +35,19 @@ typedef class LevelObject : public BaseObject
 typedef class MenuLevelObject : public LevelObject
 {
 	public:
-		MenuLevelObject(int numButts);
+		MenuLevelObject(int numButts) : LevelObject() {}
+		bool checkRenderReady() override
+		{
+			BasePtr base = this;
+			if(base->getState() > objRender)
+			{
+				(base)++;
+			}
+		}
 		void Execute() override;
 		void FSM() override;
 		void Render() override;
+		
 
 	private:
 		Manager<ButtonPtr> buttons_;

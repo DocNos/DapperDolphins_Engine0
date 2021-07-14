@@ -273,7 +273,9 @@ int main()
 	///		Should ideally be contained all within the CTOR
 	///
 	theEngine = new Engine();
+	theEngine->newLevel(MenuLevelObject(4));
 
+	
 	while (!mainWindow.getShouldClose())
 	{
 		theEngine->Update();

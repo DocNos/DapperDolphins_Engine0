@@ -9,14 +9,13 @@ mtx3* buttPos;
    //////   MENU                                                        ///// 
   //////////////////////////////////////////////////////////////////////////
 
-MenuLevelObject::MenuLevelObject(int numButts)
-: LevelObject(Manager<MenuLevelPtr>()) // Initialize base object with initializer list
-{
-	
+MenuLevelObject::MenuLevelObject(int numButts): LevelObject()
+// Initialize base object with initializer list
+{	
 	
 	for (int i = 0; i < numButts; ++i)
 	{
-		buttons_.addObj((new ButtonInput(buttPos[i])));
+		buttons_.addObj((new ButtonInput()));
 	}
 	cursor_ = new CursorInput;
 }
@@ -24,37 +23,40 @@ MenuLevelObject::MenuLevelObject(int numButts)
 
 void MenuLevelObject::FSM()
 {
-	switch(getState())
+	switch (getState())
 	{
-		case(objDestroyed):
+		// Object is flagged for destruction
+		case(objDestroy):
 		{
-
-
-				
-		}break;
+			
+			
+		} break; 
+		// Initial State
 		case(objInvalid):
 		{
 
-
-				
-		}break;
+			
+		} break; 
+		// check to see if object needs to be updated, if false, stay in checkStatus.  
 		case(objCheckStatus):
 		{
 
-
-
-		}break;
-		case(objUpdate):
+			
+		} break; 
+		// if object needs to be updated, update it. 
+		case(objExecute):
 		{
-			Execute();
-				
-		}break;
-	default: 
-		break;
+
+			
+		} break; 
+		// Once the object is done updating, flag it for render. Wait until all render flags
+		// are up before rendering the scene.
+		case(objRender):
+		{
+
+			
+		} break;
 	}
-
-
-		
 	
 }
 
@@ -82,34 +84,7 @@ void MenuLevelObject::Render()
 
 void PlayLevelObject::FSM()
 {
-	switch (getState())
-	{
-	case(objDestroyed):
-	{
-
-
-
-	}break;
-	case(objInvalid):
-	{
-
-
-
-	}break;
-	case(objCheckStatus):
-	{
-
-
-
-	}break;
-	case(objUpdate):
-	{
-		Execute();
-
-	}break;
-	default:
-		break;
-	}
+	
 
 
 
@@ -139,34 +114,6 @@ void PlayLevelObject::Render()
 
 void DebugLevelObject::FSM()
 {
-	switch (getState())
-	{
-	case(objDestroyed):
-	{
-
-
-
-	}break;
-	case(objInvalid):
-	{
-
-
-
-	}break;
-	case(objCheckStatus):
-	{
-
-
-
-	}break;
-	case(objUpdate):
-	{
-		Execute();
-
-	}break;
-	default:
-		break;
-	}
 
 
 

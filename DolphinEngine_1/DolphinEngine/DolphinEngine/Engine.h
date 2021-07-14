@@ -12,7 +12,22 @@ public:
 			  MenuLevels_(Manager<MenuLevelPtr>()),   PlayLevels_(Manager<PlayLevelPtr>()),
 			  DebugLevels_(Manager<DebugLevelPtr>())  {}
 	
-
+	template <typename levelType>
+	void newLevel(levelType)
+	{
+		if(isType(levelType, MenuLevelPtr))
+		{
+			MenuLevels_.addObj(new levelType);
+		}
+		if (isType(levelType, PlayLevelPtr))
+		{
+			PlayLevels_.addObj(new levelType);
+		}
+		if (isType(levelType, DebugLevelPtr))
+		{
+			DebugLevels_.addObj(new levelType);
+		}
+	}
 	//void Init();
 	void Update();
 	void Exit();

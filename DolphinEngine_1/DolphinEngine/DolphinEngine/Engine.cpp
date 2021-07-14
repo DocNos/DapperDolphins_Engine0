@@ -12,45 +12,34 @@ void Engine::Update()
 	MenuLevels_.executeT
 	([](MenuLevelPtr menuLevels)
 	{
-		switch(menuLevels->getState())
-		{			
-			case(objDestroyed):   { } break;
-			case(objInvalid):     { } break;
-			case(objExecute):	  { } break;
-			case(objCheckStatus): { } break;
-			case(objFSM):		  { } break;
-			case(objRender):	  { } break;			
-		}					
+		if(menuLevels->getState() > objRender)
+		{
+			menuLevels->FSM();
+		}
+		menuLevels->checkRenderReady();
+			
 	}		
 	);
 
 	PlayLevels_.executeT
 	([](PlayLevelPtr playLevels)
 	{
-		switch (playLevels->getState())
+		if (playLevels->getState() > objRender)
 		{
-			case(objDestroyed): { } break;
-			case(objInvalid): { } break;
-			case(objExecute): { } break;
-			case(objCheckStatus): { } break;
-			case(objFSM): { } break;
-			case(objRender): { } break;
+			playLevels->FSM();
 		}
+		playLevels->checkRenderReady();
 	}		
 	);
 
 	DebugLevels_.executeT
 	([](DebugLevelPtr debugLevels)
 	{
-		switch (debugLevels->getState())
+		if (debugLevels->getState() > objRender)
 		{
-			case(objDestroyed): { } break;
-			case(objInvalid): { } break;
-			case(objExecute): { } break;
-			case(objCheckStatus): { } break;
-			case(objFSM): { } break;
-			case(objRender): { } break;
+			debugLevels->FSM();
 		}
+		debugLevels->checkRenderReady();
 	}
 	);
 	

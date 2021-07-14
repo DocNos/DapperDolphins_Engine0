@@ -19,8 +19,8 @@ typedef class InterfaceObject: public BaseObject
 typedef class InputInterface: public InterfaceObject
 {
 	public:
-
-
+		// "Is getting input" 
+		virtual bool isTriggered() = 0;
 	
 		
 
@@ -34,11 +34,12 @@ typedef class InputInterface: public InterfaceObject
 typedef class ButtonInput: public InputInterface
 {
 	public:
+		ButtonInput() : InputInterface(), buttTransform(1.f)  {}
 		ButtonInput(mtx3 buttTransform);
-		bool active()
-		{
-			return true;
-		}
+
+		// Check cursor position and whether clicked or not
+		bool isTriggered() override;
+	
 		void FSM() override;
 		void Execute() override;
 		void Render() override;
@@ -53,7 +54,10 @@ typedef class ButtonInput: public InputInterface
 typedef class CursorInput: public InputInterface
 {
 	public:
-		CursorInput();
+		CursorInput(): InputInterface() {}
+
+		// Check for clicks- Differentiate between which click?
+		bool isTriggered() override;
 	
 		void FSM() override;
 		void Execute() override;
