@@ -8,11 +8,7 @@
 //-----------------------------------------------------------------------------
 
 #pragma once
-
-#include "stdio.h"
-
-#include <GL\glew.h>
-#include <GLFW\glfw3.h>
+#include "main.h"
 
 class Window
 {
@@ -51,5 +47,5 @@ private:
 
 	void createCallbacks();
 	static void handleKeys(GLFWwindow* window, int key, int code, int action, int mode);
-	static void handleMouse(GLFWwindow* window, double xPos, double yPos);
+	static void handleMouse(GLFWwindow* window, GLfloat xPos, GLfloat yPos);
 };

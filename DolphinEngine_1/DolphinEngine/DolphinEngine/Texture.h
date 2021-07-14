@@ -8,10 +8,7 @@
 //-----------------------------------------------------------------------------
 
 #pragma once
-
-#include <GL/glew.h>
-
-#include "CommonValues.h"
+#include "main.h"
 
 class Texture
 {

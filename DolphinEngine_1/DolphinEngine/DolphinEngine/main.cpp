@@ -7,33 +7,9 @@
 //
 //-----------------------------------------------------------------------------
 
-#define STB_IMAGE_IMPLEMENTATION
 
-#include "Window.h"
+#include "main.h"
 
-#include <stdio.h>
-#include <string.h>
-#include <cmath>
-#include <vector>
-
-#include <GL\glew.h>
-#include <GLFW\glfw3.h>
-#include <glm\glm.hpp>
-#include <glm\gtc\matrix_transform.hpp>
-#include <glm\gtc\type_ptr.hpp>
-
-#include "CommonValues.h"
-
-#include "Mesh.h"
-#include "Shader.h"
-#include "Camera.h"
-#include "Texture.h"
-#include "DirectionalLight.h"
-#include "PointLight.h"
-#include "SpotLight.h"
-#include "Material.h"
-#include "Model.h"
-#include "Skybox.h"
 
 Window mainWindow;
 
@@ -82,7 +58,7 @@ void calcAverageNormals(unsigned int* indices, unsigned int indiceCount, GLfloat
 		unsigned int in0 = indices[i] * vLength;
 		unsigned int in1 = indices[i + 1] * vLength;
 		unsigned int in2 = indices[i + 2] * vLength;
-		glm::vec3 v1(vertices[in1] - vertices[in0], vertices[in1 + 1] - vertices[in0 + 1],
+		vec3 v1(vertices[in1] - vertices[in0], vertices[in1 + 1] - vertices[in0 + 1],
 			vertices[in1 + 2] - vertices[in0 + 2]);
 		glm::vec3 v2(vertices[in2] - vertices[in0], vertices[in2 + 1] - vertices[in0 + 1],
 			vertices[in2 + 2] - vertices[in0 + 2]);
@@ -283,8 +259,34 @@ void RenderPass(glm::mat4 projectionMatrix, glm::mat4 viewMatrix)
 	RenderScene();
 }
 
+
+
+EnginePtr theEngine;
+
 int main()
 {
+
+	//////////////////////////////////////////////
+	///	INIT
+	//////////////////////////////////////////////
+	///	Initialize Engine. 
+	///		Should ideally be contained all within the CTOR
+	///
+	theEngine = new Engine();
+
+	while (!mainWindow.getShouldClose())
+	{
+		theEngine->Update();
+	}
+	
+
+
+
+
+
+
+
+	
 	mainWindow = Window(1366, 768); //1366, 768  1280, 1024   1024, 768
 	mainWindow.Initialise();
 
@@ -337,6 +339,11 @@ int main()
 
 	glm::mat4 projection = glm::perspective(glm::radians(60.0f), (GLfloat)mainWindow.getBufferWidth() / mainWindow.getBufferHeight(), 0.1f, 100.0f);
 
+
+	///////////////////////////////
+	/// UPDATE
+	///////////////////////////////
+	
 	while (!mainWindow.getShouldClose())
 	{
 		GLfloat now = glfwGetTime();

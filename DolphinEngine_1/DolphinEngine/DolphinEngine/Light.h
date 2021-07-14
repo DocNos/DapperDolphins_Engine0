@@ -9,11 +9,9 @@
 
 #pragma once
 
-#include <GL/glew.h>
-#include <glm/glm.hpp>
-#include <glm\gtc\matrix_transform.hpp>
+#include "main.h"
 
-#include "ShadowMap.h"
+
 
 class Light
 {

@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include "ShadowMap.h"
+#include "main.h"
 
 class OmniShadowMap :
     public ShadowMap

@@ -8,8 +8,8 @@
 //-----------------------------------------------------------------------------
 
 #pragma once
+#include "main.h"
 
-#include "Light.h"
 
 class DirectionalLight : public Light
 {

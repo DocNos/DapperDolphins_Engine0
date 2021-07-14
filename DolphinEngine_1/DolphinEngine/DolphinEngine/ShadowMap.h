@@ -9,9 +9,7 @@
 
 #pragma once
 
-#include <stdio.h>
-
-#include <GL/glew.h>
+#include "main.h"
 
 class ShadowMap
 {
