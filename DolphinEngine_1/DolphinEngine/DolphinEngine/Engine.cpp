@@ -10,7 +10,7 @@ void Engine::Update()
 	// Executes all active levels in the manager.
 	// Make sure to check all states so nothing slips through
 	MenuLevels_.executeT
-	([](MenuLevelPtr menuLevels)
+	([](MenuLevelPtr menuLevels)// "Layer"
 	{
 		if(menuLevels->getState() > objRender)
 		{
@@ -41,6 +41,29 @@ void Engine::Update()
 		}
 		debugLevels->checkRenderReady();
 	}
+	);
+	////////////////////////////
+	/// RENDER LOOP
+	////////////////////////////
+	MenuLevels_.executeT
+	([](MenuLevelPtr menuLevels)// "Layer"
+		{
+			menuLevels->Render();
+		}
+	);
+
+	PlayLevels_.executeT
+	([](PlayLevelPtr playLevels)
+		{
+			playLevels->Render();
+		}
+	);
+
+	DebugLevels_.executeT
+	([](DebugLevelPtr debugLevels)
+		{
+			debugLevels->Render();
+		}
 	);
 	
 	

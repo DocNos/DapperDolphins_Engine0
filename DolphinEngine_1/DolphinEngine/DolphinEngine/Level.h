@@ -36,14 +36,15 @@ typedef class MenuLevelObject : public LevelObject
 {
 	public:
 		MenuLevelObject(int numButts) : LevelObject() {}
+		/*
 		bool checkRenderReady() override
 		{
 			BasePtr base = this;
 			if(base->getState() > objRender)
 			{
-				(base)++;
+				
 			}
-		}
+		}*/
 		void Execute() override;
 		void FSM() override;
 		void Render() override;
@@ -67,8 +68,8 @@ typedef class PlayLevelObject : public LevelObject
 		void Execute() override;
 
 	private:
-		//Manager<PlayerPtr> player_;
-		//Manager<EnemyPtr> enemies_;
+		// Manager<PlayerPtr> player_;
+		// Manager<EnemyPtr> enemies_;
 		// Manager<EnvironmentPtr> environment_;
 		// Manager<InterfacePtr> interface_;
 		// Manager<ItemPtr> items_;

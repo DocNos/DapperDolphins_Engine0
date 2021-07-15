@@ -35,7 +35,7 @@ typedef class ButtonInput: public InputInterface
 {
 	public:
 		ButtonInput() : InputInterface(), buttTransform(1.f)  {}
-		ButtonInput(mtx3 buttTransform);
+		ButtonInput(mtx3 buttTransform) : InputInterface() {}
 
 		// Check cursor position and whether clicked or not
 		bool isTriggered() override;
@@ -85,7 +85,7 @@ typedef class OutputInterface: public InterfaceObject
 typedef class ScoreOutput: public OutputInterface
 {
 	public:
-	
+		ScoreOutput() : OutputInterface() {}
 		void FSM() override;
 		void Execute() override;
 		void Render() override;
@@ -98,7 +98,11 @@ typedef class ScoreOutput: public OutputInterface
 
 typedef class PoolOutput: public OutputInterface
 {
+	public:
 
+	private:
+		float maxNum;
+		float currNum;
 
 	
 } * PoolPtr;
@@ -106,7 +110,7 @@ typedef class PoolOutput: public OutputInterface
 typedef class HealthPool: public PoolOutput
 {
 	public:
-		HealthPool();
+		HealthPool() : PoolOutput() {}
 	
 		void FSM() override;
 		void Execute() override;
@@ -119,7 +123,7 @@ typedef class HealthPool: public PoolOutput
 typedef class OxygenPool: public PoolOutput
 {
 	public:
-		OxygenPool();
+		OxygenPool() : PoolOutput() {}
 	
 		void FSM() override;
 		void Execute() override;

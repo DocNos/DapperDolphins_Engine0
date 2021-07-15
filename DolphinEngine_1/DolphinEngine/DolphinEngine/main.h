@@ -48,7 +48,7 @@
 /////////////////
 #include <stdio.h>
 #include <string.h>
-#include <cmath>
+#include <math.h>
 #include <vector>
 
 #include <GL\glew.h>
