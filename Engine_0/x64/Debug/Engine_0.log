@@ -1,0 +1,331 @@
+﻿  Actor.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(29,2): warning C4091: 'typedef ': ignored on left of 'Engine' when no variable is declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,23): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,15): error C2923: 'Manager': 'MenuLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,23): error C2065: 'PlayLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,15): error C2923: 'Manager': 'PlayLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,23): error C2065: 'DebugLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,15): error C2923: 'Manager': 'DebugLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(41,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(21,28): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C3646: 'TransformMtx': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,36): error C3861: 'mtx3': identifier not found
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Engine.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,23): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,15): error C2923: 'Manager': 'MenuLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,23): error C2065: 'PlayLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,15): error C2923: 'Manager': 'PlayLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,23): error C2065: 'DebugLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,15): error C2923: 'Manager': 'DebugLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(41,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(21,28): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C3646: 'TransformMtx': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,36): error C3861: 'mtx3': identifier not found
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Environment.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(29,2): warning C4091: 'typedef ': ignored on left of 'Engine' when no variable is declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,23): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,15): error C2923: 'Manager': 'MenuLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,23): error C2065: 'PlayLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,15): error C2923: 'Manager': 'PlayLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,23): error C2065: 'DebugLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,15): error C2923: 'Manager': 'DebugLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(41,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(21,28): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C3646: 'TransformMtx': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,36): error C3861: 'mtx3': identifier not found
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Interface.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(29,2): warning C4091: 'typedef ': ignored on left of 'Engine' when no variable is declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,23): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,15): error C2923: 'Manager': 'MenuLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,23): error C2065: 'PlayLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,15): error C2923: 'Manager': 'PlayLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,23): error C2065: 'DebugLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,15): error C2923: 'Manager': 'DebugLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(21,28): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C3646: 'TransformMtx': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,36): error C3861: 'mtx3': identifier not found
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Level.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(29,2): warning C4091: 'typedef ': ignored on left of 'Engine' when no variable is declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(41,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(21,28): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C3646: 'TransformMtx': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,36): error C3861: 'mtx3': identifier not found
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  main.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(29,2): warning C4091: 'typedef ': ignored on left of 'Engine' when no variable is declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,23): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,15): error C2923: 'Manager': 'MenuLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,23): error C2065: 'PlayLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,15): error C2923: 'Manager': 'PlayLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,23): error C2065: 'DebugLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,15): error C2923: 'Manager': 'DebugLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(41,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(21,28): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C3646: 'TransformMtx': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,36): error C3861: 'mtx3': identifier not found
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Object.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(29,2): warning C4091: 'typedef ': ignored on left of 'Engine' when no variable is declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,23): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,15): error C2923: 'Manager': 'MenuLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,23): error C2065: 'PlayLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,15): error C2923: 'Manager': 'PlayLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,23): error C2065: 'DebugLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,15): error C2923: 'Manager': 'DebugLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(41,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(21,28): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C3646: 'TransformMtx': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,36): error C3861: 'mtx3': identifier not found
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  ObjectManager.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(29,2): warning C4091: 'typedef ': ignored on left of 'Engine' when no variable is declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,23): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,15): error C2923: 'Manager': 'MenuLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,23): error C2065: 'PlayLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,15): error C2923: 'Manager': 'PlayLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,23): error C2065: 'DebugLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,15): error C2923: 'Manager': 'DebugLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(41,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(12,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(21,28): error C2061: syntax error: identifier 'vec3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C3646: 'TransformMtx': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,36): error C3861: 'mtx3': identifier not found
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Transform.cpp
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(21,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(22,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(23,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(24,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C3646: 'currentLevel_': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(25,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Engine.h(29,2): warning C4091: 'typedef ': ignored on left of 'Engine' when no variable is declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,23): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15,15): error C2923: 'Manager': 'MenuLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,23): error C2065: 'PlayLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,15): error C2923: 'Manager': 'PlayLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(19,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,23): error C2065: 'DebugLevelPtr': undeclared identifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,15): error C2923: 'Manager': 'DebugLevelPtr' is not a valid template type argument for parameter 'T'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(20,14): error C2535: 'LevelObject::LevelObject(Manager)': member function already defined or declared
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Level.h(15): message : see declaration of 'LevelObject::LevelObject'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(41,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\Interface.h(52,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\Desktop\github\TeamProject3\Engine_0\main.h(25,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Generating Code...

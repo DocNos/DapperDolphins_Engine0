@@ -3,11 +3,12 @@
 
 ///////////////
 /// PARENT ///
-typedef class EnvironmentObject: public BaseObject
+class EnvironmentObject : public BaseObject
 {
 
-	
-} * EnvPtr;
+
+};
+using EnvironmentObjectPtr = EnvironmentObject*;
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -15,30 +16,34 @@ typedef class EnvironmentObject: public BaseObject
   ///////////////////////////////////////////////////////
  /// PLATFORMS                                      //// 
 /////////////////////////////////////////////////////// 
-typedef class EnvPlatform: public EnvironmentObject
+class EnvPlatform : public EnvironmentObject
 {
 
 
-	
-} * EnvPlatformPtr;
 
-typedef class FlatPlatform: public EnvPlatform
-{
+};
+using EnvPlatformPtr = EnvPlatform*;
 
-	
-} * FlatPlatPtr;
-
-typedef class CurvedPlatform : public EnvPlatform
+class FlatPlatform : public EnvPlatform
 {
 
 
-} *CurvedPlatPtr;
+};
+using FlatPlatformPtr = FlatPlatform*;
 
-typedef class MovingPlatform : public EnvPlatform
+class CurvedPlatform : public EnvPlatform
 {
 
 
-} *MovingPlatPtr;
+};
+using CurvedPlatformPtr = CurvedPlatform*;
+
+class MovingPlatform : public EnvPlatform
+{
+
+
+};
+using MovingPlatformPtr = MovingPlatform*;
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -47,26 +52,29 @@ typedef class MovingPlatform : public EnvPlatform
  /// HAZARDS                                        //// 
 ///////////////////////////////////////////////////////
 
-typedef class EnvHazard: public EnvironmentObject
-{
-
-	
-} * HazardPtr;
-
-typedef class GunHazard: public EnvHazard
+class EnvHazard : public EnvironmentObject
 {
 
 
+};
+using EnvHazardPtr = EnvHazard*;
 
-	
-} * GunPtr;
-
-typedef class SpikeHazard: public EnvHazard
+class GunHazard : public EnvHazard
 {
 
 
-	
-} * SpikePtr;
+
+
+};
+using GunHazardPtr = GunHazard*;
+
+class SpikeHazard : public EnvHazard
+{
+
+
+
+};
+using SpikeHazardPtr = SpikeHazard*;
 
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

@@ -7,7 +7,7 @@
 
 ////////////////////////////////////////////////////////
 ////
-typedef class LevelObject : public BaseObject
+class LevelObject : public BaseObject
 {
 	public:
 		typedef class MenuLevelObject* MenuLevelPtr;
@@ -25,7 +25,9 @@ typedef class LevelObject : public BaseObject
 
 	
 
-} *LevelObjectPtr;
+};
+
+using LevelObjectPtr = LevelObject*;
 
 
 

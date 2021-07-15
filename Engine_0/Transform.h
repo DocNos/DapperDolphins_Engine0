@@ -2,7 +2,7 @@
 #define TRANSFORM_H
 #include "main.h"
 
-typedef class TransformObject: public BaseObject
+class TransformObject: public BaseObject
 {
 	public:
 
@@ -29,8 +29,8 @@ typedef class TransformObject: public BaseObject
 		bool isDirty;
 		
 	
-} * TransformPtr;
-
+};
+using TransformPtr = TransformObject*;
 
 
 

@@ -16,20 +16,22 @@ typedef class InterfaceObject: public BaseObject
   ///////////////////////////////////////////////////////
  /// INPUT                                          //// 
 /////////////////////////////////////////////////////// 
-typedef class InputInterface: public InterfaceObject
+class InputInterface : public InterfaceObject
 {
-	public:
-		// "Is getting input" 
-		virtual bool isTriggered() = 0;
-	
-		
-
-	private:
+public:
+	// "Is getting input" 
+	virtual bool isTriggered() = 0;
 
 
 
-	
-} * InputPtr;
+private:
+
+
+
+
+};
+
+using InputPtr = InputInterface*;
 
 typedef class ButtonInput: public InputInterface
 {

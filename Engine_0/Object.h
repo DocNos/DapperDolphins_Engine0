@@ -2,7 +2,7 @@
 
 
 
-typedef class Obj* ObjPtr;
+class Obj* ObjPtr;
 enum ObjState
 {
 	objDestroyed = -1,
@@ -12,7 +12,7 @@ enum ObjState
 	objRender
 };
 
-typedef class BaseObject
+class BaseObject
 {
 	public:
 		// Remember! The FSM does no rendering, only flags for render!
@@ -30,7 +30,9 @@ typedef class BaseObject
 		ObjState state_;
 		
 	
-} *BasePtr;
+};
+
+using BasePtr = BaseObject*;
 
 
 

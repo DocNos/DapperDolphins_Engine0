@@ -10,14 +10,18 @@ public:
 	typedef void (*functionPtr) (T param); // void function ptr
 	Manager()
 	{
-		list_ = new std::vector<T>;
+		// Don't do dat
+		// List is not a pointer, a new list is already created on construction
+		// list_ = new std::vector<T>;
 	}
 	
 	
 	void executeT(functionPtr update)
 	{
 		// Lambda
-		for (T t : list_) // Updating every T t in the private  member var list_
+		// T t calls the copy constructor so you end up updating a copy
+		// T& uses the actual variable inside list_
+		for (T& t : list_) // Updating every T t in the private  member var list_
 		{
 			update(t);
 		}

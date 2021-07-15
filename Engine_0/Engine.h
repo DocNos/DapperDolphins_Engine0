@@ -2,18 +2,18 @@
 #define ENGINE_H
 #include "main.h"
 
-typedef class Engine
+class Engine
 {
 public:
-	
+
 	Engine() :
-	dt_(0.f)
+		dt_(0.f)
 	{}
 
 	void Init();
 	void Update();
 	void Exit();
-	
+
 
 private:
 
@@ -25,8 +25,9 @@ private:
 	LevelObjectPtr currentLevel_;
 
 
-	
-} * EnginePtr;
 
+};
+
+using EnginePtr = Engine*;
 
 #endif
