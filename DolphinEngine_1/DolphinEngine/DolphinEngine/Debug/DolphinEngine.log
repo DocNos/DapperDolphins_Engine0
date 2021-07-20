@@ -24,11 +24,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -54,26 +49,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Actor.cpp(27,1): fatal error C1004: unexpected end-of-file found
   Camera.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -101,11 +76,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -131,26 +101,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Camera.cpp(108,1): fatal error C1004: unexpected end-of-file found
   DirectionalLight.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -178,11 +128,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -208,40 +153,18 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\DirectionalLight.cpp(46,1): fatal error C1004: unexpected end-of-file found
   Engine.cpp
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(54,11): error C2065: 'ButtonPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(54,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(55,20): error C3646: 'cursor_': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(55,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(38,49): error C2512: 'Manager': no appropriate default constructor available
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\ObjectManager.h(8,1): message : see declaration of 'Manager'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(38,14): error C2061: syntax error: identifier 'mtx3'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(38,14): error C2535: 'ButtonInput::ButtonInput(void)': member function already defined or declared
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(37): message : see declaration of 'ButtonInput::ButtonInput'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(49,21): error C3646: 'buttTransform': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(49,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(37,37): error C2614: 'ButtonInput': illegal member initialization: 'buttTransform' is not a base or member
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(43,11): error C2065: 'ButtonPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(43,3): error C2923: 'Manager': 'ButtonPtr' is not a valid template type argument for parameter 'T'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(44,20): error C3646: 'cursor_': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.h(44,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(40,14): error C2061: syntax error: identifier 'mtx3'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(40,14): error C2535: 'ButtonInput::ButtonInput(void)': member function already defined or declared
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(39): message : see declaration of 'ButtonInput::ButtonInput'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(51,21): error C3646: 'buttTransform': unknown override specifier
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(51,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.h(39,37): error C2614: 'ButtonInput': illegal member initialization: 'buttTransform' is not a base or member
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Transform.h(11,18): error C2061: syntax error: identifier 'vec3'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Transform.h(11,18): error C2535: 'TransformObject::TransformObject(void)': member function already defined or declared
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Transform.h(9): message : see declaration of 'TransformObject::TransformObject'
@@ -253,110 +176,15 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\T
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Transform.h(28,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Transform.h(9,36): error C3861: 'mtx3': identifier not found
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Transform.h(9,23): error C2614: 'TransformObject': illegal member initialization: 'TransformMtx' is not a base or member
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Mesh.h(20,26): error C2061: syntax error: identifier 'GLfloat'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Mesh.h(28,12): error C3646: 'VAO': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Mesh.h(28,12): error C2059: syntax error: ','
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Mesh.h(28,22): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Mesh.h(29,20): error C3646: 'indexCount': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Mesh.h(29,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(29,30): error C3646: 'GetProjectionLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(29,30): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(29,32): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(30,25): error C3646: 'GetModelLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(30,25): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(30,27): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(31,24): error C3646: 'GetViewLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(31,24): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(31,26): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(32,36): error C3646: 'GetAmbientIntensityLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(32,36): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(32,38): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(33,33): error C3646: 'GetAmbientColourLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(33,33): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(33,35): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(34,36): error C3646: 'GetDiffuseIntensityLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(34,36): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(34,38): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(35,29): error C3646: 'GetDirectionLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(35,29): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(35,31): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(36,31): error C3646: 'GetEyePositionLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(36,31): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(36,33): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(37,37): error C3646: 'GetSpecularIntensityLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(37,37): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(37,39): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(38,29): error C3646: 'GetShininessLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(38,29): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(38,31): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(39,32): error C3646: 'GetOmniLightPosLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(39,32): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(39,34): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(40,28): error C3646: 'GetFarPlaneLocation': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(40,28): error C2059: syntax error: '('
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(40,30): error C2238: unexpected token(s) preceding ';'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(42,43): error C2061: syntax error: identifier 'DirectionalLight'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(43,32): error C2061: syntax error: identifier 'PointLight'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(44,30): error C2061: syntax error: identifier 'SpotLight'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(45,25): error C2061: syntax error: identifier 'GLuint'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(46,38): error C2061: syntax error: identifier 'GLuint'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(47,36): error C2653: 'glm': is not a class or namespace name
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(47,45): error C2061: syntax error: identifier 'mat4'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(48,36): error C2653: 'glm': is not a class or namespace name
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(48,41): error C2065: 'mat4': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(48,29): error C2923: 'std::vector': 'mat4' is not a valid template type argument for parameter '_Ty'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(48,29): error C2976: 'std::vector': too few template arguments
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(57,17): error C3646: 'shaderID': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(57,17): error C2059: syntax error: ','
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(57,63): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(58,27): error C3646: 'uniformEyePosition': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(58,27): error C2059: syntax error: ','
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(58,71): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(59,23): error C3646: 'uniformTexture': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(59,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(60,41): error C3646: 'uniformDirectionalLightTransform': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(60,41): error C2059: syntax error: ','
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(60,70): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(61,28): error C3646: 'uniformOmniLightPos': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(61,28): error C2059: syntax error: ','
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(61,45): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(63,29): error C3646: 'uniformLightMatrices': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(63,29): error C2143: syntax error: missing ',' before '['
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(63,32): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(66,23): error C3646: 'uniformColour': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(66,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(67,33): error C3646: 'uniformAmbientIntensity': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(67,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(68,33): error C3646: 'uniformDiffuseIntensity': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(68,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(70,26): error C3646: 'uniformDirection': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(70,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(73,31): error C3646: 'uniformPointLightCount': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(73,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(76,23): error C3646: 'uniformColour': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(76,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(77,33): error C3646: 'uniformAmbientIntensity': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(77,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(78,33): error C3646: 'uniformDiffuseIntensity': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(78,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(80,25): error C3646: 'uniformPosition': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(80,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(81,25): error C3646: 'uniformConstant': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(81,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(82,23): error C3646: 'uniformLinear': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(82,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(83,25): error C3646: 'uniformExponent': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(83,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(84,22): error C2065: 'MAX_POINT_LIGHTS': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(86,30): error C3646: 'uniformSpotLightCount': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(86,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(89,23): error C3646: 'uniformColour': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(89,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(90,33): error C3646: 'uniformAmbientIntensity': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(90,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(91,33): error C3646: 'uniformDiffuseIntensity': unknown override specifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.h(91,33): fatal error C1003: error count exceeds 100; stopping compilation
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\DirectionalLight.h(15,1): error C2504: 'Light': base class undefined
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\PointLight.h(19,1): error C2504: 'Light': base class undefined
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Model.h(28,23): error C2061: syntax error: identifier 'aiNode'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Model.h(29,22): error C2061: syntax error: identifier 'aiMesh'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Model.h(30,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Model.h(30,34): error C2143: syntax error: missing ',' before '*'
   Environment.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -383,11 +211,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -413,27 +236,59 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Environment.cpp(3,1): fatal error C1004: unexpected end-of-file found
+  Graphics.cpp
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(42,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(42,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(42,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(43,9): error C2143: syntax error: missing ';' before '<'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(43,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(43,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(20,6): error C3861: 'MenuLevelPtr': identifier not found
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(20,6): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(22,4): error C3861: 'MenuLevels_': identifier not found
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(22,4): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(24,7): error C3861: 'PlayLevelPtr': identifier not found
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(24,7): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(26,4): error C3861: 'PlayLevels_': identifier not found
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(26,4): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(28,7): error C3861: 'DebugLevelPtr': identifier not found
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(28,7): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(30,4): error C3861: 'DebugLevels_': identifier not found
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(30,4): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,18): error C2065: 'Manager': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\poppack1.h(18,10): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(13,9): warning C4079: unexpected token 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(4906,28): warning C4081: expected ')'; found 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(10213,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\poppack1.h(18,10): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\poppack1.h(18,10): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdarg.h(14,26): warning C4081: expected ')'; found 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdarg.h(16,1): warning C4079: unexpected token 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdarg.h(16,1): warning C4081: expected 'newline'; found ')'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdarg.h(27,1): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Graphics.cpp(3,1): fatal error C1004: unexpected end-of-file found
   Interface.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -460,11 +315,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -490,26 +340,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Interface.cpp(3,1): fatal error C1004: unexpected end-of-file found
   Level.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -537,11 +367,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -567,26 +392,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Level.cpp(138,1): fatal error C1004: unexpected end-of-file found
   Light.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -614,11 +419,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -644,26 +444,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Light.cpp(35,1): fatal error C1004: unexpected end-of-file found
   main.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -691,11 +471,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -721,27 +496,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\main.cpp(383,1): fatal error C1004: unexpected end-of-file found
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\main.cpp(377,1): fatal error C1004: unexpected end-of-file found
   Material.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -768,11 +523,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -798,26 +548,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Material.cpp(33,1): fatal error C1004: unexpected end-of-file found
   Mesh.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -845,11 +575,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -875,26 +600,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Mesh.cpp(85,1): fatal error C1004: unexpected end-of-file found
   Model.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -922,11 +627,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -952,104 +652,8 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Model.cpp(157,1): fatal error C1004: unexpected end-of-file found
   Object.cpp
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,35): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(42,9): error C2143: syntax error: missing ';' before '<'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(42,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(42,35): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(43,9): error C2143: syntax error: missing ';' before '<'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(43,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(43,37): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(20,6): error C3861: 'MenuLevelPtr': identifier not found
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(20,6): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(22,4): error C3861: 'MenuLevels_': identifier not found
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(22,4): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(24,7): error C3861: 'PlayLevelPtr': identifier not found
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(24,7): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(26,4): error C3861: 'PlayLevels_': identifier not found
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(26,4): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(28,7): error C3861: 'DebugLevelPtr': identifier not found
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(28,7): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(30,4): error C3861: 'DebugLevels_': identifier not found
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(30,4): message : This diagnostic occurred in the compiler generated function 'void Engine::newLevel(levelType)'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,18): error C2065: 'Manager': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\poppack1.h(18,10): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(13,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(4906,28): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(10213,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\poppack1.h(18,10): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\poppack1.h(18,10): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdarg.h(14,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdarg.h(16,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdarg.h(16,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdarg.h(27,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Object.cpp(8,1): fatal error C1004: unexpected end-of-file found
   ObjectManager.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -1076,11 +680,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1106,26 +705,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\ObjectManager.cpp(102,1): fatal error C1004: unexpected end-of-file found
   OmniShadowMap.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -1153,11 +732,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1183,26 +757,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\OmniShadowMap.cpp(69,1): fatal error C1004: unexpected end-of-file found
   PointLight.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -1230,11 +784,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1260,26 +809,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\PointLight.cpp(90,1): fatal error C1004: unexpected end-of-file found
   Shader.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -1307,11 +836,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1337,26 +861,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Shader.cpp(420,1): fatal error C1004: unexpected end-of-file found
   ShadowMap.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -1384,11 +888,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1414,26 +913,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\ShadowMap.cpp(77,1): fatal error C1004: unexpected end-of-file found
   Skybox.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -1461,11 +940,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1491,27 +965,10 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Skybox.cpp(112,1): fatal error C1004: unexpected end-of-file found
+  Generating Code...
+C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Object.cpp(7): error C4716: 'BaseObject::checkRenderReady': must return a value
+  Compiling...
   SpotLight.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -1538,11 +995,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1568,29 +1020,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\SpotLight.cpp(72,1): fatal error C1004: unexpected end-of-file found
-  Generating Code...
-  Compiling...
   Texture.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -1617,11 +1047,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1647,26 +1072,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Texture.cpp(103,1): fatal error C1004: unexpected end-of-file found
   Transform.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -1694,11 +1099,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1724,26 +1124,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Transform.cpp(3,1): fatal error C1004: unexpected end-of-file found
   Window.cpp
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(41,9): error C2143: syntax error: missing ';' before '<'
@@ -1771,11 +1151,6 @@ C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\E
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,26): error C2065: 'MenuLevelPtr': undeclared identifier
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2059: syntax error: ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Engine.h(14,1): error C2612: trailing ')' illegal in base/member initializer list
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,9): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(19,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(20,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(1343,9): warning C4161: #pragma pack(pop...): more pops than pushes
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,10): warning C4079: unexpected token 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(26,21): warning C4081: expected 'newline'; found ')'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\ASSIMP\include\assimp\Compiler\pushpack1.h(40,29): warning C4081: expected ')'; found 'string'
@@ -1801,25 +1176,5 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmmintrin.h(394,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(20,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(22,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(24,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\setjmp.h(177,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mm3dnow.h(35,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\intrin.h(926,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winpackagefamily.h(21,25): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(14,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\assert.h(41,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\External Libs\GLM\detail\func_integer.inl(317,30): warning C4081: expected ')'; found 'string'
 C:\Users\Jacob\Desktop\jacobBranch\DolphinEngine_1\DolphinEngine\DolphinEngine\Window.cpp(165,1): fatal error C1004: unexpected end-of-file found
   Generating Code...

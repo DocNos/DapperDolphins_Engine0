@@ -1,7 +1,10 @@
-#include "main.h"
+#include "Object.h"
+
+
+bool BaseObject::checkRenderReady()
+{
+	
+}
 
 
 
-
-
-		// "typedef class Object {...}* ObjPtr;"

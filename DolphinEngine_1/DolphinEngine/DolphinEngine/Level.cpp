@@ -17,7 +17,7 @@ MenuLevelObject::MenuLevelObject(int numButts): LevelObject()
 	{
 		buttons_.addObj((new ButtonInput()));
 	}
-	cursor_ = new CursorInput;
+	cursor_ = new CursorInput();
 }
 
 

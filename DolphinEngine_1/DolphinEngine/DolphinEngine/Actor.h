@@ -2,7 +2,7 @@
 #include "main.h"
 
 // Actors-> Living entities with logic/ control
-typedef class ActorObject: public BaseObject
+class ActorObject: public BaseObject
 {
 public:
 	void FSM() override;
@@ -16,10 +16,10 @@ private:
 	// AnimationPtr Animation  ~ Combine all graphics? 
 	// SpritePtr sprite
 	
-} * ActorPtr;
+};
+using ActorObjectPtr = ActorObject*;
 
-
-typedef class EnemyObject : public ActorObject
+class EnemyActor : public ActorObject
 {
 public:
 	void AI();
@@ -28,16 +28,16 @@ public:
 private:	
 
 	
-} * EnemyPtr;
+};
+using EnemyActorPtr = EnemyActor*;
 
-
-typedef class PlayerObject : public ActorObject
+typedef class PlayerActor : public ActorObject
 {
 public:
 
-	PlayerObject(std::string name) : name_(name)
+	PlayerActor(std::string name) : name_(name)
 	{}
-	~PlayerObject()
+	~PlayerActor()
 	{
 		// delete out of vector
 		for (int i = 0; i <= 0; )
@@ -60,6 +60,6 @@ private:
 	Cmp* input_;
 	Cmp* transform_;*/
 
-} *PlayerPtr;          // Can call Object as ptr. 
-
+} ;          // Can call Object as ptr. 
+using PlayerActorPtr = PlayerActor*;
 

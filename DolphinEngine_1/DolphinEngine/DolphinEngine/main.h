@@ -4,12 +4,29 @@
 #define isType(O, T) (typeid(O) == typeid(T))
 #define STB_IMAGE_IMPLEMENTATION
 
-// Have all necc. includes under this header. Should be only data here. 
+// Have all necc. includes under this header. Should be only data here.
+
+/////////////////
+/// Libraries
+/////////////////
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <vector>
+#include <GL\glew.h>
+#include <GLFW\glfw3.h>
+#include <glm.hpp>
+#include <gtc\matrix_transform.hpp>
+#include <gtc\type_ptr.hpp>
+#include "CommonValues.h"
 #include <string>
 #include <vector>
 #include <iterator>
 #include <typeinfo>
 
+///////////////////////
+/// Architecture
+///////////////////////
 #include "Engine.h"
 #include "Object.h"
 #include "ObjectManager.h"
@@ -19,9 +36,9 @@
 #include "Interface.h"
 #include "Environment.h"
 #include "Transform.h"
-//////////////////
+//////////////////////
 ///	Graphics
-/////////////////
+//////////////////////
 #include "Mesh.h"
 #include "Shader.h"
 #include "Camera.h"
@@ -41,22 +58,7 @@
 #include "OmniShadowMap.h"
 #include "Mesh.h"
 #include "Texture.h"
-
 #include "stb_image.h"
-/////////////////
-/// Libraries
-/////////////////
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <vector>
-
-#include <GL\glew.h>
-#include <GLFW\glfw3.h>
-#include <glm.hpp>
-#include <gtc\matrix_transform.hpp>
-#include <gtc\type_ptr.hpp>
-#include "CommonValues.h"
 
 
 

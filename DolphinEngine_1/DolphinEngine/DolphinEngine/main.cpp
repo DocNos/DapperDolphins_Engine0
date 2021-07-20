@@ -60,10 +60,10 @@ void calcAverageNormals(unsigned int* indices, unsigned int indiceCount, GLfloat
 		unsigned int in2 = indices[i + 2] * vLength;
 		vec3 v1(vertices[in1] - vertices[in0], vertices[in1 + 1] - vertices[in0 + 1],
 			vertices[in1 + 2] - vertices[in0 + 2]);
-		glm::vec3 v2(vertices[in2] - vertices[in0], vertices[in2 + 1] - vertices[in0 + 1],
+		vec3 v2(vertices[in2] - vertices[in0], vertices[in2 + 1] - vertices[in0 + 1],
 			vertices[in2 + 2] - vertices[in0 + 2]);
-		glm::vec3 normal = glm::cross(v1, v2);
-		normal = glm::normalize(normal);
+		vec3 normal = glm::cross(v1, v2);
+		normal = glm::normalize(normal); // Get Unit vector
 
 		in0 += normalOffset;
 		in1 += normalOffset;
@@ -272,20 +272,14 @@ int main()
 	///	Initialize Engine. 
 	///		Should ideally be contained all within the CTOR
 	///
-	theEngine = new Engine();
-	theEngine->newLevel(MenuLevelObject(4));
-
-	
-	while (!mainWindow.getShouldClose())
-	{
-		theEngine->Update();
-	}
-	
-
-
-
-
-
+	// theEngine = new Engine();
+	// theEngine->newLevel(MenuLevelObject(4));
+	// 
+	// 
+	// while (!mainWindow.getShouldClose())
+	// {
+	// 	 theEngine->Update();
+	// }
 
 
 	

@@ -7,7 +7,7 @@
 
 ////////////////////////////////////////////////////////
 ////
-typedef class LevelObject : public BaseObject
+class LevelObject : public BaseObject
 {
 	public:
 		typedef class MenuLevelObject* MenuLevelPtr;
@@ -21,30 +21,19 @@ typedef class LevelObject : public BaseObject
 		
 		
 	private:
-		
-
 	
 
-} *LevelObjectPtr;
+};
 
-
+using LevelObjectPtr = LevelObject*;
 
 ////
 ////////////////////////////////////////////////////////
-////
-typedef class MenuLevelObject : public LevelObject
+//// Contains buttons and cursor
+class MenuLevelObject : public LevelObject
 {
 	public:
-		MenuLevelObject(int numButts) : LevelObject() {}
-		/*
-		bool checkRenderReady() override
-		{
-			BasePtr base = this;
-			if(base->getState() > objRender)
-			{
-				
-			}
-		}*/
+		MenuLevelObject(int numButts);
 		void Execute() override;
 		void FSM() override;
 		void Render() override;
@@ -52,15 +41,15 @@ typedef class MenuLevelObject : public LevelObject
 
 	private:
 		Manager<ButtonPtr> buttons_;
-		CursorPtr cursor_;
+		CursorPtr cursor_;	
 		
-		
+};
 
-} *MenuLevelPtr;
+using MenuLevelPtr = MenuLevelObject*;
 ////
 /////////////////////////////////////////////////////////
-////
-typedef class PlayLevelObject : public LevelObject
+//// 
+class PlayLevelObject : public LevelObject
 {
 	public:
 		void FSM() override;
@@ -74,11 +63,14 @@ typedef class PlayLevelObject : public LevelObject
 		// Manager<InterfacePtr> interface_;
 		// Manager<ItemPtr> items_;
 
-} *PlayLevelPtr;
+};
+
+using PlayLevelPtr = PlayLevelObject*;
+
 ////
 ///////////////////////////////////////////////////////////
 ////
-typedef class DebugLevelObject : public LevelObject
+class DebugLevelObject : public LevelObject
 {
 	public:
 		void FSM() override;
@@ -88,7 +80,9 @@ typedef class DebugLevelObject : public LevelObject
 	private:
 
 
-} *DebugLevelPtr;
+};
+
+using DebugLevelPtr = DebugLevelObject*;
 ////
 //////////////////////////////////////////////////////////
 

@@ -1,14 +1,16 @@
 #pragma once
 #include "main.h"
+#include "main.h"
 
  ///////////////
 /// PARENT ////
-typedef class InterfaceObject: public BaseObject
+class InterfaceObject: public BaseObject
 {
 
 
 	
-} * InterfacePtr;
+} ;
+using InterfacePtr = InterfaceObject*;
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -16,12 +18,12 @@ typedef class InterfaceObject: public BaseObject
   ///////////////////////////////////////////////////////
  /// INPUT                                          //// 
 /////////////////////////////////////////////////////// 
-typedef class InputInterface: public InterfaceObject
+class InputInterface: public InterfaceObject
 {
 	public:
 		// "Is getting input" 
 		virtual bool isTriggered() = 0;
-	
+		void Render() override = 0;
 		
 
 	private:
@@ -29,14 +31,19 @@ typedef class InputInterface: public InterfaceObject
 
 
 	
-} * InputPtr;
+};
+using InputPtr = InputInterface*;
 
-typedef class ButtonInput: public InputInterface
+class ButtonInput: public InputInterface
 {
 	public:
-		ButtonInput() : InputInterface(), buttTransform(1.f)  {}
-		ButtonInput(mtx3 buttTransform) : InputInterface() {}
+		ButtonInput() : InputInterface(), buttTransform_(1.f)  {}
+		ButtonInput(mtx3 buttTransform) : InputInterface()
+		{
+			// extrapolate 4 counter-winding edge vectors
+		}
 
+		
 		// Check cursor position and whether clicked or not
 		bool isTriggered() override;
 	
@@ -46,12 +53,14 @@ typedef class ButtonInput: public InputInterface
 		// 
 	
 	private:
-		mtx3 buttTransform;
-
+		mtx3 buttTransform_; // From center of button. To find edges, consult box.
+		std::vector<vec3> buttBox_;
 	
-} * ButtonPtr;
+};
+using ButtonPtr = ButtonInput*;
 
-typedef class CursorInput: public InputInterface
+
+class CursorInput: public InputInterface
 {
 	public:
 		CursorInput(): InputInterface() {}
@@ -66,7 +75,9 @@ typedef class CursorInput: public InputInterface
 	private:
 
 	
-} * CursorPtr;
+};
+
+using CursorPtr = CursorInput*;
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -74,15 +85,16 @@ typedef class CursorInput: public InputInterface
   ///////////////////////////////////////////////////////
  /// OUTPUT                                         //// 
 /////////////////////////////////////////////////////// 
-typedef class OutputInterface: public InterfaceObject
+class OutputInterface: public InterfaceObject
 {
 
 
 
 	
-} * OutputPtr;
+};
+using OutputPtr = OutputInterface;
 
-typedef class ScoreOutput: public OutputInterface
+class ScoreOutput: public OutputInterface
 {
 	public:
 		ScoreOutput() : OutputInterface() {}
@@ -94,9 +106,10 @@ typedef class ScoreOutput: public OutputInterface
 
 	
 	
-} * ScorePtr;
+} ;
+using ScorePtr = ScoreOutput*;
 
-typedef class PoolOutput: public OutputInterface
+class PoolOutput: public OutputInterface
 {
 	public:
 
@@ -105,9 +118,10 @@ typedef class PoolOutput: public OutputInterface
 		float currNum;
 
 	
-} * PoolPtr;
+};
+using PoolPtr = PoolOutput*;
 
-typedef class HealthPool: public PoolOutput
+class HealthPool: public PoolOutput
 {
 	public:
 		HealthPool() : PoolOutput() {}
@@ -118,9 +132,11 @@ typedef class HealthPool: public PoolOutput
 	
 	private:
 	
-} * HealthPoolPtr;
+};
+using HealthPoolPtr = HealthPool*;
 
-typedef class OxygenPool: public PoolOutput
+
+class OxygenPool: public PoolOutput
 {
 	public:
 		OxygenPool() : PoolOutput() {}
@@ -131,6 +147,8 @@ typedef class OxygenPool: public PoolOutput
 	
 	private:
 	
-} * OxygenPoolPtr;
+};
+using OxygenPoolPtr = OxygenPool*;
+
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

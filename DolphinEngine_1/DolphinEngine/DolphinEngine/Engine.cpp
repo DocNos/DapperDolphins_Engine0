@@ -16,7 +16,10 @@ void Engine::Update()
 		{
 			menuLevels->FSM();
 		}
-		menuLevels->checkRenderReady();
+		if(menuLevels->checkRenderReady())
+		{
+			
+		}
 			
 	}		
 	);

@@ -15,30 +15,35 @@ typedef class EnvironmentObject: public BaseObject
   ///////////////////////////////////////////////////////
  /// PLATFORMS                                      //// 
 /////////////////////////////////////////////////////// 
-typedef class EnvPlatform: public EnvironmentObject
+class PlatformObject: public EnvironmentObject
 {
 
 
 	
-} * EnvPlatformPtr;
+};
+using PlatformObjectPtr = PlatformObject*;
 
-typedef class FlatPlatform: public EnvPlatform
+class FlatPlatform: public PlatformObject
 {
 
 	
-} * FlatPlatPtr;
+};
+using FlatPlatformPtr = FlatPlatform*;
 
-typedef class CurvedPlatform : public EnvPlatform
+class CurvedPlatform : public PlatformObject
 {
 
 
-} *CurvedPlatPtr;
+};
+using CurvedPlatformPtr = CurvedPlatform*;
 
-typedef class MovingPlatform : public EnvPlatform
+class MovingPlatform : public PlatformObject
 {
 
 
-} *MovingPlatPtr;
+};
+using MovingPlatformPtr = MovingPlatform*;
+
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 

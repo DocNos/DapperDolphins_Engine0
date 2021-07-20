@@ -12,7 +12,7 @@ enum ObjState
 	objExecute,
 };
 
-typedef class BaseObject
+class BaseObject
 {
 	public:
 		BaseObject() : state_(objInvalid), renderReady_(0) {}
@@ -21,7 +21,7 @@ typedef class BaseObject
 		//virtual void checkStatus() = 0; // pure virtual
 		virtual void Render() = 0;
 		virtual void Execute() = 0;
-		virtual bool checkRenderReady() = 0;
+		bool checkRenderReady();
 
 		ObjState getState() { return state_; }
 		bool isActive()
@@ -44,8 +44,9 @@ typedef class BaseObject
 		ObjState state_;
 		int renderReady_;
 	
-} *BasePtr;
+};
 
+using BasePtr = BaseObject*;
 
 
 
