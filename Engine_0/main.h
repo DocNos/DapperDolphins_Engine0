@@ -10,11 +10,13 @@
 #include <iterator>
 #include <typeinfo>
 
+
+// There shouldn't be so many includes here, include only what you need
 #include "Engine.h"
 #include "Object.h"
 #include "ObjectManager.h"
 #include "Cmp.h"
-#include  "Level.h"
+#include "Level.h"
 #include "Actor.h"
 #include "Interface.h"
 #include "Environment.h"

@@ -3,12 +3,14 @@
 
  ///////////////
 /// PARENT ////
-typedef class InterfaceObject: public BaseObject
+class InterfaceObject : public BaseObject
 {
 
 
-	
-} * InterfacePtr;
+
+};
+using InterfacePtr = InterfaceObject*;
+
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -16,22 +18,24 @@ typedef class InterfaceObject: public BaseObject
   ///////////////////////////////////////////////////////
  /// INPUT                                          //// 
 /////////////////////////////////////////////////////// 
-typedef class InputInterface: public InterfaceObject
+class InputInterface : public InterfaceObject
 {
-	public:
-
-
-	
-		
-
-	private:
+public:
 
 
 
-	
-} * InputPtr;
 
-typedef class ButtonInput: public InputInterface
+
+private:
+
+
+
+
+};
+
+using InputPtr = InputInterface*;
+
+class ButtonInput: public InputInterface
 {
 	public:
 		ButtonInput(mtx3 buttTransform);
@@ -48,21 +52,27 @@ typedef class ButtonInput: public InputInterface
 		mtx3 buttTransform;
 
 	
-} * ButtonPtr;
+};
 
-typedef class CursorInput: public InputInterface
+// Not a good practice, change later
+using ButtonPtr = ButtonInput*;
+
+class CursorInput : public InputInterface
 {
-	public:
-		CursorInput();
-	
-		void FSM() override;
-		void Execute() override;
-		void Render() override;
-	
-	private:
+public:
+	CursorInput();
 
-	
-} * CursorPtr;
+	void FSM() override;
+	void Execute() override;
+	void Render() override;
+
+private:
+
+
+};
+
+using CursorPtr = CursorInput*;
+
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -70,49 +80,54 @@ typedef class CursorInput: public InputInterface
   ///////////////////////////////////////////////////////
  /// OUTPUT                                         //// 
 /////////////////////////////////////////////////////// 
-typedef class OutputInterface: public InterfaceObject
+class OutputInterface: public InterfaceObject
 {
 
 
 
 	
-} * OutputPtr;
+};
+using OutputPtr = OutputInterface*;
 
-typedef class ScoreOutput: public OutputInterface
+class ScoreOutput : public OutputInterface
 {
-	public:
-	
-		void FSM() override;
-		void Execute() override;
-		void Render() override;
-	
-	private:
+public:
 
-	
-	
-} * ScorePtr;
+	void FSM() override;
+	void Execute() override;
+	void Render() override;
 
-typedef class PoolOutput: public OutputInterface
+private:
+
+
+
+};
+
+using ScorePtr = ScoreOutput*;
+
+class PoolOutput : public OutputInterface
 {
 
 
-	
-} * PoolPtr;
 
-typedef class HealthPool: public PoolOutput
+};
+using PoolPtr = PoolOutput*;
+
+class HealthPool : public PoolOutput
 {
-	public:
-		HealthPool();
-	
-		void FSM() override;
-		void Execute() override;
-		void Render() override;
-	
-	private:
-	
-} * HealthPoolPtr;
+public:
+	HealthPool();
 
-typedef class OxygenPool: public PoolOutput
+	void FSM() override;
+	void Execute() override;
+	void Render() override;
+
+private:
+
+};
+using HealthPoolPtr = HealthPool*;
+
+class OxygenPool: public PoolOutput
 {
 	public:
 		OxygenPool();
@@ -123,6 +138,7 @@ typedef class OxygenPool: public PoolOutput
 	
 	private:
 	
-} * OxygenPoolPtr;
+};
+using OxygenPoolPtr = OxygenPool*;
 //\
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

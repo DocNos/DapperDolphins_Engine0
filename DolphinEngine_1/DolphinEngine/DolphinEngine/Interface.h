@@ -18,6 +18,7 @@ using InterfacePtr = InterfaceObject*;
   ///////////////////////////////////////////////////////
  /// INPUT                                          //// 
 /////////////////////////////////////////////////////// 
+<<<<<<< HEAD
 class InputInterface: public InterfaceObject
 {
 	public:
@@ -25,13 +26,28 @@ class InputInterface: public InterfaceObject
 		virtual bool isTriggered() = 0;
 		void Render() override = 0;
 		
+=======
+class InputInterface : public InterfaceObject
+{
+public:
+	// "Is getting input" 
+	virtual bool isTriggered() = 0;
+>>>>>>> c0262bdefb36fcc16240e644b5d3f5fb37dba512
 
-	private:
 
 
+private:
 
+<<<<<<< HEAD
 	
 };
+=======
+
+
+
+};
+
+>>>>>>> c0262bdefb36fcc16240e644b5d3f5fb37dba512
 using InputPtr = InputInterface*;
 
 class ButtonInput: public InputInterface

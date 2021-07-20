@@ -7,15 +7,10 @@
 
 ////////////////////////////////////////////////////////
 ////
-typedef class LevelObject : public BaseObject
+class LevelObject : public BaseObject
 {
 	public:
-		typedef class MenuLevelObject* MenuLevelPtr;
-		typedef class PlayLevelObject* PlayLevelPtr;
-		typedef class DebugLevelObject* DebugLevelPtr;
-		typedef class LevelObject* LevelObjectPtr;
 		
-
 
 		LevelObject(Manager<MenuLevelPtr> menuLevel)
 		{
@@ -29,15 +24,24 @@ typedef class LevelObject : public BaseObject
 
 	
 
-} *LevelObjectPtr;
+};
+
+using LevelObjectPtr = LevelObject*;
 
 
 
 ////
 ////////////////////////////////////////////////////////
 ////
-typedef class MenuLevelObject : public LevelObject
+class MenuLevelObject : public LevelObject
 {
+	// Forward declaration for cursor/button (Dunno what you gonna do here Jacob)
+	class Button;
+	class Cursor;
+
+	using ButtonPtr = Button*;
+	using CursorPtr = Cursor*;
+
 	public:
 		MenuLevelObject(int numButts);
 		void FSM() override;
@@ -50,29 +54,35 @@ typedef class MenuLevelObject : public LevelObject
 		
 		
 
-} *MenuLevelPtr;
+};
+
+using MenuLevelPtr = MenuLevelObject*;
+
 ////
 /////////////////////////////////////////////////////////
 ////
-typedef class PlayLevelObject : public LevelObject
+class PlayLevelObject : public LevelObject
 {
-	public:
-		void FSM() override;
-		void Render() override; 
-		void Execute() override;
+public:
+	void FSM() override;
+	void Render() override;
+	void Execute() override;
 
-	private:
-		//Manager<PlayerPtr> player_;
-		//Manager<EnemyPtr> enemies_;
-		// Manager<EnvironmentPtr> environment_;
-		// Manager<InterfacePtr> interface_;
-		// Manager<ItemPtr> items_;
+private:
+	//Manager<PlayerPtr> player_;
+	//Manager<EnemyPtr> enemies_;
+	// Manager<EnvironmentPtr> environment_;
+	// Manager<InterfacePtr> interface_;
+	// Manager<ItemPtr> items_;
 
-} *PlayLevelPtr;
+};
+
+using PlayLevelPtr = PlayLevelObject*;
+
 ////
 ///////////////////////////////////////////////////////////
 ////
-typedef class DebugLevelObject : public LevelObject
+class DebugLevelObject : public LevelObject
 {
 	public:
 		void FSM() override;
@@ -82,7 +92,9 @@ typedef class DebugLevelObject : public LevelObject
 	private:
 
 
-} *DebugLevelPtr;
+};
+
+using DebugLevelPtr = DebugLevelObject*;
 ////
 //////////////////////////////////////////////////////////
 
