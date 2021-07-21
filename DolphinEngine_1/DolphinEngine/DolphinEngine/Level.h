@@ -24,13 +24,6 @@ class LevelObject : public BaseObject
 	
 
 };
-<<<<<<< HEAD
-=======
-
-using LevelObjectPtr = LevelObject*;
-
->>>>>>> c0262bdefb36fcc16240e644b5d3f5fb37dba512
-
 using LevelObjectPtr = LevelObject*;
 
 ////
